@@ -1,4 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Nuxt Store example ecommerce site
+
+Visit deployed project:
+https://master--legendary-llama-0f8026.netlify.app/
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
