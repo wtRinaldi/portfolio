@@ -1,18 +1,22 @@
 <template>
   <div class="card">
-    <div class="grid grid-cols-2 gap-10">
+    <div class="flex flex-col md:flex-row">
       <div class="p-7">
-        <img :src="product.image" alt="product image" class="mx-auto my-7" />
+        <img :src="product.image" alt="product image" class="mx-auto product-image" />
       </div>
-      <div class="p-7">
-        <h2 class="text-4xl my-7">{{ product.title }}</h2>
-        <p class="text-xl my-7">Price - ${{ product.price }}</p>
-        <h3 class="font-bold border-b-2 mb-4 pb-2">Product Description:</h3>
-        <p class="mb-7">{{ product.description }}</p>
-        <button class="btn flex items-center">
-          <i class="material-icons mr-2">add_shopping_cart</i>
-          <span class="text-lg">Add to Cart</span>
-        </button>
+      <div class="p-7 md:w-3/5">
+        <div>
+          <h2 class="text-4xl my-7">{{ product.title }}</h2>
+          <p class="text-xl my-7">Price - ${{ product.price }}</p>
+          <h3 class="font-bold border-b-2 mb-4 pb-2">Product Description:</h3>
+          <p class="mb-7">{{ product.description }}</p>
+        </div>
+        <div class="flex justify-end">
+          <button class="btn flex items-center">
+            <i class="material-icons mr-2">add_shopping_cart</i>
+            <span class="text-lg">Add to Cart</span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -23,8 +27,11 @@
 </script>
 
 <style scoped>
-img {
-  max-width: 400px;
+
+.product-image {
+  object-fit: scale-down;
+  height: 100%;
+  width: 100%;
 }
 
 </style>
