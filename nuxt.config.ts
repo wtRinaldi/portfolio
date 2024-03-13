@@ -1,24 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'William Rinaldi - Senior Front End Developer',
+      meta: [{
+        name: 'description',
+        content: 'Senior Front End Developer'
+      }],
+      link: [{
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
+      }]
+    }
+  },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {}
-    }
-  },
-  app: {
-    head: {
-      title: 'Nuxt Shop',
-      meta: [{
-        name: 'description',
-        content: 'Simple Sales Website'
-      }],
-      link: [{
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
-      }]
     }
   },
   runtimeConfig: {

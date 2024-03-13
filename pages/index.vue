@@ -3,10 +3,13 @@
 </template>
 
 <script setup>
-// const { data } = await useFetch('/api/about?store=Nuxt Store', {
-//   method: 'post',
-//   body: { name: 'William' }
-// })
+useHead({
+  title: 'William Rinaldi | Home',
+  meta: [{
+    name: 'description',
+    content: 'Senior Front End Developer'
+  }]
+})
 
 const { data } = useFetch('/api/currency/EUR%2CUSD%2CCAD')
 

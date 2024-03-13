@@ -9,7 +9,11 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        120: '30rem'
+      }
+    },
   },
   plugins: [],
 }
