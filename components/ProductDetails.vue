@@ -13,7 +13,7 @@
         </div>
         <div class="flex justify-end">
           <button class="btn flex items-center">
-            <i class="material-icons mr-2">add_shopping_cart</i>
+            <NuxtIcon name="shopping-cart" class="text-3xl mr-3"/>
             <span class="text-lg">Add to Cart</span>
           </button>
         </div>

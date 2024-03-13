@@ -7,10 +7,6 @@ export default defineNuxtConfig({
         name: 'description',
         content: 'Senior Front End Developer'
       }],
-      link: [{
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
-      }]
     }
   },
 
@@ -20,7 +16,8 @@ export default defineNuxtConfig({
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {}
+      autoprefixer: {},
+      ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})
     }
   },
 
@@ -37,5 +34,5 @@ export default defineNuxtConfig({
     currencyKey: process.env.CURRENCY_API_KEY
   },
 
-  modules: ["@nuxt/image"]
+  modules: ['@nuxt/image', 'nuxt-icons']
 })
