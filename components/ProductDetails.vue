@@ -25,6 +25,7 @@
 <script setup>
   const { product } = defineProps(['product'])
   // preload placeholder
+  // https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg
 </script>
 
 <style scoped>
