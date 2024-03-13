@@ -24,6 +24,10 @@ export default defineNuxtConfig({
     }
   },
 
+  image: {
+    domains: ['fakestoreapi.com']
+  },
+
   runtimeConfig: {
     currencyKey: process.env.CURRENCY_API_KEY
   },

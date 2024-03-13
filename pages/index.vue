@@ -1,5 +1,5 @@
 <template>
-  <div>{{ data }}</div>
+  <div>{{ data }} test nuxt img</div>
 </template>
 
 <script setup>
