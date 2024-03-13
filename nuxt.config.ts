@@ -25,7 +25,9 @@ export default defineNuxtConfig({
   },
 
   image: {
-    domains: ['fakestoreapi.com/img/']
+    fakeStore: {
+      baseURL: 'https://fakestoreapi.com'
+    }
   },
 
   runtimeConfig: {
