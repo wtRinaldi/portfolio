@@ -2,7 +2,7 @@
   <div class="card">
     <div class="flex flex-col md:flex-row">
       <div class="p-7">
-        <NuxtImg :src="product.image" alt="product image" class="mx-auto product-image" preload placeholder/>
+        <img :src="product.image" alt="product image" class="mx-auto product-image" />
       </div>
       <div class="p-7 md:w-3/5">
         <div>
@@ -24,6 +24,7 @@
 
 <script setup>
   const { product } = defineProps(['product'])
+  // preload placeholder
 </script>
 
 <style scoped>
