@@ -21,6 +21,12 @@ export default defineNuxtConfig({
     }
   },
 
+  image: {
+    provider: 'unsplash',
+    unsplash: {
+      baseUrl: 'https://api.unsplash.com'
+    }
+  },
 
   runtimeConfig: {
     currencyKey: process.env.CURRENCY_API_KEY,
