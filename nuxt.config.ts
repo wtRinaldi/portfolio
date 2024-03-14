@@ -25,7 +25,8 @@ export default defineNuxtConfig({
     provider: 'unsplash',
     unsplash: {
       baseUrl: 'https://api.unsplash.com'
-    }
+    },
+    format: ['webp']
   },
 
   runtimeConfig: {
