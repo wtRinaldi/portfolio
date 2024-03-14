@@ -21,18 +21,13 @@ export default defineNuxtConfig({
     }
   },
 
-  image: {
-    domains: [
-      'fakestoreapi.com'
-    ],
-    alias: {
-      fakeStore: 'https://fakestoreapi.com'
-    }
-  },
 
   runtimeConfig: {
-    currencyKey: process.env.CURRENCY_API_KEY
+    currencyKey: process.env.CURRENCY_API_KEY,
+    imageKey: process.env.UNSPLASH_API_KEY
   },
 
-  modules: ['@nuxt/image', 'nuxt-icons']
+  modules: ['@nuxt/image', 'nuxt-icons'],
+
+
 })
