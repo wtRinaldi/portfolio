@@ -30,10 +30,6 @@
     }]
   })
 
-  definePageMeta({
-    layout: 'products'
-  })
-
   const { data: products } = await useFetch('https://fakestoreapi.com/products')
   const { data: images } = await useFetch('https://api.unsplash.com/photos?query=products&client_id=OTfLDBVmthQNQp7qW8R8ERB-z3sNaz03pDxSpBNFCQI')
 

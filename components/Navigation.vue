@@ -2,7 +2,7 @@
   <header class="w-full shadow-sm bg-white">
     <nav class="container mx-auto p-4">
       <div class="hidden lg:flex justify-between">
-        <NuxtLink to="/" class="font-bold">William Rinaldi</NuxtLink>
+        <NuxtLink to="/" class="font-bold" @click="closeMenu">William Rinaldi</NuxtLink>
         <ul class="flex gap-4">
           <li><NuxtLink to="/about">About</NuxtLink></li>
           <li><NuxtLink to="/products">Products</NuxtLink></li>
@@ -11,8 +11,8 @@
       </div>
       <div class="flex justify-between lg:hidden">
         <NuxtLink to="/" class="font-bold">WR</NuxtLink>
-        <button>
-          <NuxtIcon name="hamburger" class="text-xl" @click="toggleMenu"/>
+        <button @click="toggleMenu" aria-label="navigation menu">
+          <NuxtIcon name="hamburger" class="text-xl" />
         </button>
       </div>
       <div v-if="isShowMenu" class="w-full overflow-hidden relative left-0 top-4 pb-5 bg-white lg:hidden">
