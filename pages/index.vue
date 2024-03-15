@@ -4,7 +4,7 @@
       <div class="m-12">
         <NuxtImg provider="unsplash"
                  :src="image.urls.small"
-                 :alt="image.title"
+                 :alt="image.alt_description"
                  :loading="(index > 2) ? 'lazy' : 'eager'"
                  width="640"
                  height="480"

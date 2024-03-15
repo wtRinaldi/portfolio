@@ -7,6 +7,9 @@ export default defineNuxtConfig({
         name: 'description',
         content: 'Senior Front End Developer'
       }],
+      htmlAttrs: {
+        lang: 'en'
+      }
     }
   },
 
