@@ -5,7 +5,7 @@
         <NuxtImg provider="unsplash"
                  :src="image.urls.small"
                  :alt="image.title"
-                 :loading="(index > 3) ? 'lazy' : 'eager'"
+                 :loading="(index > 2) ? 'lazy' : 'eager'"
                  width="640"
                  height="480"
                  sizes="sm:255px md:320px lg:480px"
