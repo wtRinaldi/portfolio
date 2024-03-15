@@ -1,16 +1,17 @@
 <template>
   <div>
-    <div v-for="image in images" :key="image.id">
+    <div v-for="(image, index) in images" :key="image.id">
       <div class="m-12">
         <NuxtImg provider="unsplash"
                  :src="image.urls.small"
                  :alt="image.title"
-                 :loading="image.loading ? image.loading : 'lazy'"
+                 :loading="(index > 3) ? 'lazy' : 'eager'"
                  width="640"
                  height="480"
                  sizes="sm:255px md:320px lg:480px"
                  class="max-w-120 h-64 object-cover"
                  quality="60"
+                 preload
         />
       </div>
     </div>
