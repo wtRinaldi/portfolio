@@ -26,7 +26,16 @@ export default defineNuxtConfig({
     unsplash: {
       baseUrl: 'https://api.unsplash.com'
     },
-    format: ['webp']
+    format: ['webp'],
+    presets: {
+      product: {
+        modifiers: {
+          format: 'webp',
+          fit: 'cover',
+          quality: '60'
+        }
+      }
+    }
   },
 
   runtimeConfig: {

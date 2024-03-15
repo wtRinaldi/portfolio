@@ -2,7 +2,7 @@
   <div class="card">
     <div class="flex flex-col md:flex-row">
       <div class="p-7">
-        <img :src="product.image" alt="product image" class="mx-auto product-image" />
+        <NuxtImg :src="product.image" alt="product image" class="mx-auto product-image" preload placeholder />
       </div>
       <div class="p-7 md:w-3/5">
         <div>
@@ -13,7 +13,7 @@
         </div>
         <div class="flex justify-end">
           <button class="btn flex items-center">
-            <NuxtIcon name="shopping-cart" class="text-3xl mr-3"/>
+            <NuxtIcon name="shopping-cart" class="text-xl mr-2 mb-0 mt-0.5"/>
             <span class="text-lg">Add to Cart</span>
           </button>
         </div>
