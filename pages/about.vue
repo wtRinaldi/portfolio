@@ -39,7 +39,7 @@
 
 <style scoped>
   h2 {
-    @apply font-bold text-xl pb-4 pt-7
+    @apply font-bold text-xl pb-4 pt-7 first:pt-4
   }
 
   p {
