@@ -11,6 +11,7 @@
                  sizes="sm:255px md:320px lg:480px"
                  class="max-w-120 h-64 object-cover"
                  quality="60"
+                 format="webp"
                  preload
         />
       </div>
