@@ -1,16 +1,16 @@
 <template>
-  <header class="w-full shadow-sm bg-white">
+  <header class="w-full shadow-sm bg-white sticky top-0 z-10">
     <nav class="container mx-auto p-4">
       <div class="hidden lg:flex justify-between">
         <NuxtLink to="/" class="font-bold" @click="closeMenu">William Rinaldi</NuxtLink>
         <ul class="flex gap-4">
-          <li><NuxtLink to="/about">About</NuxtLink></li>
-          <li><NuxtLink to="/products">Products</NuxtLink></li>
-          <li><NuxtLink to="/ui-elements">UI Elements</NuxtLink></li>
+          <li><NuxtLink to="/about" @click="closeMenu">About</NuxtLink></li>
+          <li><NuxtLink to="/products" @click="closeMenu">Products</NuxtLink></li>
+          <li><NuxtLink to="/ui-elements" @click="closeMenu">UI Elements</NuxtLink></li>
         </ul>
       </div>
       <div class="flex justify-between lg:hidden">
-        <NuxtLink to="/" class="font-bold">WR</NuxtLink>
+        <NuxtLink to="/" class="font-bold" @click="closeMenu">WR</NuxtLink>
         <button @click="toggleMenu" aria-label="navigation menu">
           <NuxtIcon name="hamburger" class="text-xl" />
         </button>
