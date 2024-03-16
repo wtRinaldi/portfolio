@@ -18,5 +18,15 @@ useHead({
   }]
 })
 
+definePageMeta({
+  layout: 'scroll'
+})
+
 </script>
+
+<style scoped>
+.page-height {
+  @apply h-[91vh]
+}
+</style>
 
