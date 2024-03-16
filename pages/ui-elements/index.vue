@@ -1,11 +1,11 @@
 <template>
-  <div class="snap-y snap-mandatory h-dvh overflow-scroll no-scrollbar">
-    <div class="bg-sky-400 h-dvh snap-center">
+  <div class="snap-y snap-mandatory overflow-scroll no-scrollbar view-height">
+    <div class="bg-sky-400 page-height snap-center flex justify-center items-center">
       <ElementsEmailSubscribeCard class="snap-center" />
     </div>
-    <div class="bg-emerald-300 h-dvh snap-center"></div>
-    <div class="bg-orange-400 h-dvh snap-center"></div>
-    <div class="bg-gray-900 h-dvh snap-center"></div>
+    <div class="bg-emerald-300 page-height snap-center"></div>
+    <div class="bg-orange-400 page-height snap-center"></div>
+    <div class="bg-gray-900 page-height snap-center"></div>
   </div>
 </template>
 
@@ -25,8 +25,12 @@ definePageMeta({
 </script>
 
 <style scoped>
+.view-height {
+  height: calc(100vh - 3.5rem)
+}
+
 .page-height {
-  @apply h-[91vh]
+  height: 100dvh;
 }
 </style>
 

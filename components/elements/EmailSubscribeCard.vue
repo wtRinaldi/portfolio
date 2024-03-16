@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center h-full">
+
     <div class="flex flex-col md:flex-row bg-zinc-800 p-2 mx-6 rounded-2xl w-fit">
       <img src="assets/images/image.jpg"
            alt="sample image"
@@ -22,5 +22,5 @@
         </div>
       </div>
     </div>
-  </div>
+
 </template>
