@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col md:flex-row bg-zinc-800 p-2 mx-6 rounded-2xl w-fit">
+    <div class="flex flex-col md:flex-row bg-zinc-800 mx-6 rounded-2xl w-fit">
       <img src="assets/images/image.jpg"
            alt="sample image"
            class="object-cover rounded-xl h-72 md:h-64 md:rounded-l-xl
