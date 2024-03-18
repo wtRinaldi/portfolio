@@ -2,7 +2,8 @@
   <section id="hero">
     <div class="max-w-6xl mx-auto text-center px-10 pt-12 md:pt-16 lg:pt-24">
       <div>
-        <img src="@/assets/icons/wr.svg" alt="William Rinaldi logo" class="mb-12 md:px-24" />
+        <img src="@/assets/icons/william-rinaldi.svg" alt="William Rinaldi logo" class="mb-6 md:mb-12 md:px-24" />
+        <img src="@/assets/icons/coeur-dalene-idaho.svg" alt="William Rinaldi logo" class="mb-12 px-6 md:px-56" />
       </div>
       <h3 class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl mx-auto font-bold mb-12 md:mb-24">Front End Developer</h3>
     </div>
