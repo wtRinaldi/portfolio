@@ -56,8 +56,8 @@ export default defineNuxtConfig({
       theme_color: '#000',
       background_color: '#FFF',
       display: 'standalone',
-      scope: '/',
-      start_url: '/',
+      scope: 'https://williamrinaldi.com/',
+      start_url: 'https://williamrinaldi.com/',
       icons: [
         {
           src: 'icon-48-48.png',
