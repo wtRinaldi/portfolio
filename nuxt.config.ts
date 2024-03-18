@@ -47,7 +47,55 @@ export default defineNuxtConfig({
     imageKey: process.env.UNSPLASH_API_KEY
   },
 
-  modules: ['@nuxt/image', 'nuxt-icons'],
-
-
+  modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt'],
+  pwa: {
+    manifest: {
+      name: 'William Rinaldi portfolio',
+      short_name: 'William Rinaldi',
+      lang: 'en',
+      theme_color: '#000',
+      background_color: '#FFF',
+      display: 'standalone',
+      scope: '/',
+      start_url: '/',
+      icons: [
+        {
+          src: 'icon-48-48.png',
+          sizes: '48x48',
+          type: 'image/png',
+          purpose: 'any'
+        },
+        {
+          src: 'icon-72-72.png',
+          sizes: '72x72',
+          type: 'image/png',
+          purpose: 'any'
+        },
+        {
+          src: 'icon-96-96.png',
+          sizes: '96x96',
+          type: 'image/png',
+          purpose: 'any'
+        },
+        {
+          src: 'icon-144-144.png',
+          sizes: '144x144',
+          type: 'image/png',
+          purpose: 'any'
+        },
+        {
+          src: 'icon-192-192.png',
+          sizes: '192x192',
+          type: 'image/png',
+          purpose: 'any'
+        },
+        {
+          src: 'icon-512-512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any'
+        }
+      ]
+    }
+  }
 })

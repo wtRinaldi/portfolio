@@ -1,9 +1,9 @@
 <template>
-  <div class="h-dvh min-h-160">
+  <div class="h-dvh lg:h-full min-h-160">
     <section id="hero">
       <div class="max-w-6xl mx-auto px-10 pt-12 md:pt-16 lg:pt-24 w-full">
         <img src="@/assets/icons/william-rinaldi.svg" alt="William Rinaldi logo" class="mb-6 md:mb-12 w-5/6 mx-auto" />
-        <img src="@/assets/icons/coeur-dalene-idaho.svg" alt="William Rinaldi logo" class="mb-20 w-1/2 md:w-1/3 mx-auto" />
+        <img src="@/assets/icons/coeur-dalene-idaho.svg" alt="William Rinaldi logo" class="mb-16 w-1/2 md:w-1/3 mx-auto" />
         <img src="@/assets/icons/front-end-developer.svg" alt="William Rinaldi logo" class="mb-16 w-3/4 md:w-1/2 mx-auto" />
       </div>
     </section>
