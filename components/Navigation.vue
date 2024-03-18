@@ -17,9 +17,9 @@
       </div>
       <div v-if="isShowMenu" class="w-full overflow-hidden relative left-0 top-4 pb-5 bg-white lg:hidden">
         <ul class="flex flex-col gap-4">
-          <li><NuxtLink to="/about" @click="closeMenu">About</NuxtLink></li>
-          <li><NuxtLink to="/products" @click="closeMenu">Products</NuxtLink></li>
-          <li><NuxtLink to="/ui-elements" @click="closeMenu">UI Elements</NuxtLink></li>
+          <NuxtLink to="/about" @click="closeMenu"><li>About</li></NuxtLink>
+          <NuxtLink to="/products" @click="closeMenu"><li>Products</li></NuxtLink>
+          <NuxtLink to="/ui-elements" @click="closeMenu"><li>UI Elements</li></NuxtLink>
         </ul>
       </div>
     </nav>
