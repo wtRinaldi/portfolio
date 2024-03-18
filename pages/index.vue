@@ -1,24 +1,24 @@
 <template>
-  <section id="hero">
-    <div class="max-w-6xl mx-auto text-center px-10 pt-12 md:pt-16 lg:pt-24">
-      <div>
-        <img src="@/assets/icons/william-rinaldi.svg" alt="William Rinaldi logo" class="mb-6 md:mb-12 md:px-24" />
-        <img src="@/assets/icons/coeur-dalene-idaho.svg" alt="William Rinaldi logo" class="mb-12 px-6 md:px-56" />
+  <div class="h-dvh min-h-160">
+    <section id="hero">
+      <div class="max-w-6xl mx-auto px-10 pt-12 md:pt-16 lg:pt-24 w-full">
+        <img src="@/assets/icons/william-rinaldi.svg" alt="William Rinaldi logo" class="mb-6 md:mb-12 w-5/6 mx-auto" />
+        <img src="@/assets/icons/coeur-dalene-idaho.svg" alt="William Rinaldi logo" class="mb-20 w-1/2 md:w-1/3 mx-auto" />
+        <img src="@/assets/icons/front-end-developer.svg" alt="William Rinaldi logo" class="mb-16 w-3/4 md:w-1/2 mx-auto" />
       </div>
-      <h3 class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl mx-auto font-bold mb-12 md:mb-24">Front End Developer</h3>
-    </div>
-  </section>
+    </section>
 
-  <section id="description" class="px-6 text-center mb-40">
-    <p class="max-w-xl mx-auto mb-10 text-lg sm:text-xl md:text-2xl text-slate-600 leading-[2.5rem] md:leading-loose">
-      Experienced front-end developer specializing in crafting immersive user experiences.
-      With seven years of hands-on experience, I excel in sophisticated data-heavy applications, and thrive on translating complex designs into clean code.
-      Proficient in Vue.js, experienced in React and Angular.
-    </p>
-  </section>
+    <section id="description" class="px-6 text-center mb-40">
+      <p class="max-w-xl mx-auto mb-10 text-md sm:text-lg md:text-xl text-slate-600 leading-[2.5rem] md:leading-loose">
+        Experienced front-end developer specializing in crafting immersive user experiences.
+        With seven years of hands-on experience, I excel in sophisticated data-heavy applications, and thrive on translating complex designs into clean code.
+        Proficient in Vue.js, experienced in React and Angular.
+      </p>
+    </section>
+  </div>
 
   <div class="card">
-    <div class="bg-orange-400 text-white">
+    <div class="bg-slate-600 text-white">
       <figure class="p-8">
         <figcaption class="text-2xl pb-4">Areas of expertise:</figcaption>
         <ul class="list-disc pl-5">
