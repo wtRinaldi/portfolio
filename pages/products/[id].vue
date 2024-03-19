@@ -3,7 +3,9 @@
     <Title>Nuxt Shop | Product Details</Title>
     <Meta name="description" :content="product.description" />
   </Head>
-  <ProductDetails :product />
+  <NuxtLayout name="default">
+    <ProductDetails :product />
+  </NuxtLayout>
 </template>
 
 <script setup>

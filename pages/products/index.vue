@@ -1,4 +1,5 @@
 <template>
+  <NuxtLayout name="default">
     <div class="flex flex-wrap justify-center gap-4">
       <div v-for="product in products">
         <ProductCard :product="product"/>
@@ -20,6 +21,7 @@
         </div>
       </div>
     </div>
+  </NuxtLayout>
 </template>
 <script setup>
   useHead({

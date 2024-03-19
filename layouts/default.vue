@@ -10,5 +10,3 @@
   color: darkslategray;
 }
 </style>
-<script setup lang="ts">
-</script>
