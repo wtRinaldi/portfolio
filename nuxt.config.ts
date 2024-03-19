@@ -49,12 +49,20 @@ export default defineNuxtConfig({
 
   modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt'],
   pwa: {
+    workbox: {
+      navigateFallback: '/'
+    },
+    devOptions: {
+      enabled: true,
+      type: 'module'
+    },
     manifest: {
       name: 'William Rinaldi portfolio',
       short_name: 'William Rinaldi',
+      description: 'Front End Developer William Rinaldi portfolio website',
       lang: 'en',
-      theme_color: '#000',
-      background_color: '#FFF',
+      theme_color: '#FFFFFF',
+      background_color: '#FFFFFF',
       display: 'standalone',
       scope: 'https://williamrinaldi.com/',
       start_url: 'https://williamrinaldi.com/',
@@ -87,7 +95,7 @@ export default defineNuxtConfig({
           src: 'icon-192-192.png',
           sizes: '192x192',
           type: 'image/png',
-          purpose: 'any'
+          purpose: 'maskable'
         },
         {
           src: 'icon-512-512.png',
