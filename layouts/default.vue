@@ -4,9 +4,3 @@
     <slot />
   </div>
 </template>
-
-<style scoped>
-.router-link-exact-active {
-  color: darkslategray;
-}
-</style>
