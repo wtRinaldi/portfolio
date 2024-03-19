@@ -3,7 +3,7 @@
       <img src="assets/images/image.jpg"
            alt="sample image"
            class="object-cover rounded-xl h-72 md:h-64 md:rounded-l-xl
-               md:rounded-r-none transform hover:scale-105 hover:rounded:xl duration-200">
+               md:rounded-r-none transform hover:scale-105 hover:rounded:xl duration-200 z-0">
 
       <div class="p-6 md:p-12">
         <h2 class="font-serif text-xl font-medium text-center text-white md:text-left">
