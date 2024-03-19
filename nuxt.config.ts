@@ -61,11 +61,9 @@ export default defineNuxtConfig({
       short_name: 'William Rinaldi',
       description: 'Front End Developer William Rinaldi portfolio website',
       lang: 'en',
-      theme_color: '#FFFFFF',
+      theme_color: '#000000',
       background_color: '#FFFFFF',
       display: 'standalone',
-      scope: 'https://williamrinaldi.com/',
-      start_url: 'https://williamrinaldi.com/',
       icons: [
         {
           src: 'icon-48-48.png',
