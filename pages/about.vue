@@ -1,6 +1,6 @@
 <template>
-  <NuxtLayout name="default">
-    <div class="max-w-xl mx-auto pb-7">
+  <NuxtLayout name="contained">
+    <div class="max-w-xl mx-auto pb-7 container">
       <h2>About Me:</h2>
       <p>
         Hey there! I'm William Rinaldi, a passionate front-end developer with a love for Vue.js and Nuxt.js. With a keen eye for design and a knack for creating seamless user experiences, I thrive on turning ideas into reality through the power of code.

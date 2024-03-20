@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLayout name="default">
+    <NuxtLayout name="contained">
       blog
     </NuxtLayout>
   </div>
