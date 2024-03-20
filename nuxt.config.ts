@@ -1,4 +1,4 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -49,13 +49,14 @@ export default defineNuxtConfig({
 
   modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt'],
   pwa: {
-    workbox: {
-      navigateFallback: '/'
-    },
-    devOptions: {
-      enabled: true,
-      type: 'module'
-    },
+    // workbox: {
+    //   navigateFallback: '/',
+    //
+    // },
+    // devOptions: {
+    //   enabled: false,
+    //   type: 'module'
+    // },
     manifest: {
       name: 'William Rinaldi portfolio',
       short_name: 'William Rinaldi',

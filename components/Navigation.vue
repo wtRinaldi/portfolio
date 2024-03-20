@@ -18,7 +18,7 @@
       </ul>
     </nav>
   </div>
-  <header class="w-full shadow-sm bg-white sticky z-50">
+  <header class="w-full shadow-sm bg-white sticky z-50 border-b-2">
     <nav class="container mx-auto p-4 w-full">
       <div class="hidden lg:flex justify-between">
         <NuxtLink to="/" class="font-bold" @click="closeMenu">William Rinaldi</NuxtLink>
@@ -27,7 +27,10 @@
             <NuxtLink to="/about" @click="closeMenu">About</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/products" @click="closeMenu">Products</NuxtLink>
+            <NuxtLink to="/experience" @click="closeMenu">Experience</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/blog" @click="closeMenu">Blog</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/ui-elements" @click="closeMenu">UI Elements</NuxtLink>
