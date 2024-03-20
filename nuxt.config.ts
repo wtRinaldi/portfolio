@@ -47,7 +47,8 @@ export default defineNuxtConfig({
     imageKey: process.env.UNSPLASH_API_KEY
   },
 
-  modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt'],
+  modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt', '@nuxt/content'],
+  content: {},
   pwa: {
     // workbox: {
     //   navigateFallback: '/',
