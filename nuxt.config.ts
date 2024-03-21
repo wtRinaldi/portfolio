@@ -48,7 +48,14 @@ export default defineNuxtConfig({
   },
 
   modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt', '@nuxt/content'],
-  content: {},
+  content: {
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark'
+      }
+    }
+  },
   pwa: {
     // workbox: {
     //   navigateFallback: '/',

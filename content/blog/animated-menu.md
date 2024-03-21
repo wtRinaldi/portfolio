@@ -15,7 +15,7 @@ After reviewing several other approaches, none were as straightforward and simpl
 
 The variable 'isShowMenu' dynamically applies classes. When true, the menu animates to one position, otherwise, it animates off the screen.
 
-```
+```html
   <div class="w-full 
               absolute 
               left-0 
@@ -28,14 +28,14 @@ The variable 'isShowMenu' dynamically applies classes. When true, the menu anima
        :class="[isShowMenu ? 'translate-y-14' : '-translate-y-72']">
     <nav class="mt-6 ml-12 mb-12">
       <ul class="flex flex-col gap-4">
-         <!-- list items go here -->
+         <!-- add list items here -->
       </ul>
     </nav>
   </div>
 ```
 
 'isShowMenu' variable used to apply classes along with some functions to set the variable
-```vue
+```js
 const isShowMenu = ref(false)
 
 function toggleMenu() {

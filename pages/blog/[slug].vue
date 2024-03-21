@@ -26,7 +26,7 @@ const { slug } = useRoute().params
 }
 
 [data-content-id] pre {
-  @apply bg-primary-light text-white rounded-xl pl-1 py-4 mb-8 mt-6 overflow-x-scroll
+  @apply rounded-xl pl-1 py-4 mb-8 mt-6 overflow-x-auto
 }
 
 
