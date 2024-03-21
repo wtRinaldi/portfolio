@@ -1,3 +1,5 @@
+const { colors } = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -27,10 +29,7 @@ export default {
           light: '',
           dark: ''
         },
-        selected: {
-          light: '#000',
-          dark: ''
-        },
+        active: '#3b82f6',
         success: '',
         danger: '',
         warning: '',

@@ -1,4 +1,11 @@
-# Easy Animated Menu with Tailwind
+---
+date: 2024-03-20
+description: 'Super easy way of animating a hambuger menu in Vue with Tailwind CSS'
+
+---
+
+
+# Simple Animated Hamburger Menu with Tailwind
 
 ```
   <div class="w-full absolute left-0 bg-white lg:hidden transition-transform ease-in-out duration-500 z-40"

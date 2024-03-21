@@ -1,7 +1,9 @@
 <template>
   <NuxtLayout name="contained">
     <ContentDoc :path="`/blog/${slug}`" v-slot="{ doc }">
-      <h1 class="text-lg lg:text-5xl font-bold uppercase">{{ doc.title }}</h1>
+      <article class="overflow-scroll">
+        <ContentRenderer :value="doc" />
+      </article>
     </ContentDoc>
   </NuxtLayout>
 </template>

@@ -62,6 +62,6 @@ function closeMenu() {
 
 <style scoped>
 .router-link-exact-active {
-  @apply text-secondary-light;
+  @apply text-active
 }
 </style>
