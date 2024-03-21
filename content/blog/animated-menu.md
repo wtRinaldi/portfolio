@@ -10,8 +10,11 @@ description: 'Super easy way of animating a hambuger menu in Vue with Tailwind C
 
 <p class="pt-6">After reviewing several other approaches, I found this to be the most straightforward method. You can test the behavior of this menu on mobiles views of this site.</p>
 
-
-<p class="pt-6 pb-4">The wrapper div is positioned absolute with the transform and animation classes.  The variable 'isShowMenu' dynamically the position classes, moving the menu into or out of position depending on value.</p>
+<p class="pt-6 pb-4">
+We can set both a dynamic and static class on the menu container element, dynamically setting the position of the menu.
+The variable 'isShowMenu' determines which translate class is applied, moving the menu into or out of position depending on value.
+'transition-transform' applies the Tailwind animation CSS and 'ease-in-out' and 'duration' class adds a smooth animation to the menu.
+</p>
 
 
 ```html
@@ -51,6 +54,7 @@ function closeMenu() {
 <style>
 pre {
     overflow-x: auto;
+    padding: 2rem 0;
 }
 </style>
 
