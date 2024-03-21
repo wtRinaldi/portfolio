@@ -4,16 +4,15 @@ description: 'Super easy way of animating a hambuger menu in Vue with Tailwind C
 
 ---
 
-# Simple Animated Hamburger Menu with Tailwind
+<h1 class="text-xl font-bold text-primary-light">Simple Animated Hamburger Menu with Tailwind</h1>
 
-::subheader
-If you're seeking the simplest method to create an animated hamburger menu, this is it. 
-::
+<h2 class="pt-6 font-bold text-secondary-light">If you're seeking the simplest method to create an animated hamburger menu, this is it.</h2>
 
-After reviewing several other approaches, none were as straightforward and simple as this one. Additionally, you have the freedom to style it however you prefer.
+<p class="pt-6">After reviewing several other approaches, I found this to be the most straightforward method. You can test the behavior of this menu on mobiles views of this site.</p>
 
 
-The variable 'isShowMenu' dynamically applies classes. When true, the menu animates to one position, otherwise, it animates off the screen.
+<p class="pt-6 pb-4">The wrapper div is positioned absolute with the transform and animation classes.  The variable 'isShowMenu' dynamically the position classes, moving the menu into or out of position depending on value.</p>
+
 
 ```html
   <div class="w-full 
@@ -34,7 +33,9 @@ The variable 'isShowMenu' dynamically applies classes. When true, the menu anima
   </div>
 ```
 
-'isShowMenu' variable used to apply classes along with some functions to set the variable
+
+<p class="pt-6 pb-3">'isShowMenu' variable used to apply classes along with some functions to set the variable</p>
+
 ```js
 const isShowMenu = ref(false)
 
@@ -46,4 +47,10 @@ function closeMenu() {
   isShowMenu.value = false
 }
 ```
+
+<style>
+pre {
+    overflow-x: auto;
+}
+</style>
 
