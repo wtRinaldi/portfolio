@@ -14,19 +14,20 @@ const { slug } = useRoute().params
 </script>
 
 <style>
-[data-content-id] {
-  h1 {
+[data-content-id] h1 {
     @apply text-xl font-bold text-primary-light
-  }
-  subheader {
-    @apply pt-6
-  }
-  p {
-    @apply pt-3
-  }
-  pre {
-    @apply bg-primary-light text-white rounded-xl p-12 mb-8 mt-6
-  }
 }
+[data-content-id] subheader {
+    @apply pt-6
+}
+
+[data-content-id] p {
+    @apply pt-3
+}
+
+[data-content-id] pre {
+  @apply bg-primary-light text-white rounded-xl pl-1 py-4 mb-8 mt-6 overflow-x-scroll
+}
+
 
 </style>
