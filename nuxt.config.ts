@@ -50,10 +50,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt', '@nuxt/content'],
   content: {
     highlight: {
-      theme: {
-        default: 'github-light',
-        dark: 'github-dark'
-      }
+      theme: 'github-dark'
     }
   },
   pwa: {

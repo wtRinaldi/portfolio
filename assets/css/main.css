@@ -13,6 +13,9 @@ body {
     .card {
         @apply p-3 rounded-md bg-white shadow-md;
     }
+    .code {
+        @apply overflow-x-auto bg-blue-400
+    }
 }
 
 @layer utilities {

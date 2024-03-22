@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="contained">
     <ContentDoc :path="`/blog/${slug}`" v-slot="{ doc }">
-      <article>
+      <article class="max-w-2xl mx-auto">
         <ContentRenderer :value="doc">
 
         </ContentRenderer>
