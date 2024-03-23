@@ -1,6 +1,6 @@
 ---
-date: '03.20.2024'
-description: 'Super easy way of animating a hambuger menu in Vue with Tailwind CSS'
+date: '3.20.2024'
+description: 'A super simple way of animating a hamburger menu with Vue & Tailwind CSS'
 
 ---
 
@@ -9,22 +9,22 @@ Simple Animated Hamburger Menu with Tailwind
 ::
 
 ::SubTitle
-If you're seeking the simplest method to create an animated hamburger menu, this is it.</h2>
+If you're seeking the easiest method to create an animated hamburger menu, this is it.</h2>
 ::
 
-::ContentParagraph
+::Paragraph
 After reviewing several other approaches, I found this to be the most straightforward method. 
 You can test the behavior of this menu on mobiles views of this site.
 ::
 
-::ContentParagraph
+::Paragraph
 We can set both a dynamic and static class on the menu container element, dynamically setting the position of the menu.
 The variable 'isShowMenu' determines which translate class is applied, moving the menu into or out of position depending on value.
 'transition-transform' applies the Tailwind animation CSS and 'ease-in-out' and 'duration' class adds a smooth animation to the menu.
 ::
 
 ::ContentH2
-Template of Hamburger Menu
+Vue template
 ::
 
 ::CodeBlock
@@ -49,7 +49,7 @@ Template of Hamburger Menu
 ::
 
 ::ContentH2
-Vue code used to set boolean
+Vue script
 ::
 
 ::CodeBlock
@@ -64,6 +64,10 @@ function closeMenu() {
   isShowMenu.value = false
 }
 ```
+::
+
+::Paragraph
+That's it!  It's really easy.  Feel free to reach out to me with any questions on :LinkedinLink.
 ::
 
 
