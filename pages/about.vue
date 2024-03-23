@@ -33,7 +33,7 @@
 
       <h2>Connect with Me:</h2>
       <p>
-        Feel free to reach out to me via williamtrinaldi@gmail.com or <a href="https://www.linkedin.com/in/wtrinaldi/" class="font-bold text-[#0a66c2]">LinkedIn</a> to discuss your project ideas or just to geek out about Vue.js and Nuxt.js. I'm always excited to connect with fellow developers and enthusiasts who share my passion for front-end development!
+        Feel free to email me at williamtrinaldi@gmail.com or message me on <a href="https://www.linkedin.com/in/wtrinaldi/" class="font-bold text-[#0a66c2]">LinkedIn</a> to discuss your project ideas or just to geek out about Vue.js and Nuxt.js. I'm always excited to connect with fellow developers and enthusiasts who share my passion for front-end development!
       </p>
     </div>
   </NuxtLayout>

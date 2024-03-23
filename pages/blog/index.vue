@@ -6,7 +6,7 @@
           <div class="flex justify-between">
             <div class="flex flex-col justify-between pr-12">
               <h1 class="font-bold text-lg lg:text-xl mb-2">{{ article.title }}</h1>
-              <p class="text-secondary-light font-thin">{{ article.description }}</p>
+              <p class="text-secondary-light">{{ article.description }}</p>
             </div>
             <div class="flex flex-col justify-between">
               <div class="text-sm font-semibold text-gray-500 flex justify-end">

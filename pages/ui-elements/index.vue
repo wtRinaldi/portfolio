@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="scroll">
+  <NuxtLayout name="default">
     <div class="snap-y snap-mandatory overflow-scroll no-scrollbar view-height">
       <div class="bg-sky-400 h-full snap-center flex justify-center items-center">
         <ElementsEmailSubscribeCard class="snap-center" />

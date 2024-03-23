@@ -19,18 +19,20 @@ export default {
       },
       colors: {
         primary: {
-          light: '#212529',
+          light: '#253237',
           dark: ''
         },
         secondary: {
-          light: '#495057',
+          light: '#5C6B73',
           dark: '',
         },
         ternary: {
-          light: '',
+          light: '#9DB4C0',
           dark: ''
         },
-        active: '#3b82f6',
+        quaternary: '#C2DFE3',
+        quinary: '#E0FBFC',
+        active: '#5C6B73',
         success: '',
         danger: '',
         warning: '',

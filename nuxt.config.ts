@@ -64,7 +64,7 @@ export default defineNuxtConfig({
     // },
     manifest: {
       name: 'William Rinaldi portfolio',
-      short_name: 'William Rinaldi',
+      short_name: 'WRinaldi',
       description: 'Front End Developer William Rinaldi portfolio website',
       lang: 'en',
       theme_color: '#000000',
