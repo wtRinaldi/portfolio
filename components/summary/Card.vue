@@ -1,13 +1,9 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-92 bg-quinary rounded-2xl hover:scale-105 transition-transform duration-500">
-    <div class="flex my-6 space-y-6 md:space-y-0 md:space-x-6 md:flex-row md:my-0">
-      <div class="p-8 mx-3 mt-3 rounded-t-xl bg-quinary">
-        <div class="text-center uppercase">
-          <slot name="header" />
-        </div>
-      </div>
+  <div class="flex flex-col min-h-96 max-w-lg bg-quinary rounded-2xl hover:scale-105 transition-transform duration-500">
+    <div class="flex justify-center items-end uppercase h-1/4">
+      <slot name="header" />
     </div>
-    <div class="p-8 mx-3 mb-3 rounded-b-xl bg-quinary">
+    <div class="p-8 mx-3 mb-3 rounded-b-xl bg-quinary text-xl h-3/4">
       <slot />
     </div>
   </div>

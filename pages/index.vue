@@ -17,9 +17,8 @@
 
       </div>
       <div class="container mx-auto flex flex-col md:flex-row items-center justify-around max-w-2xl my-20 gap-8">
-        <ButtonLink icon="email-contact" to="/" label="williamtrinaldi@gmail.com" />
-        <ButtonLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" new-tab />
-        <ButtonLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" new-tab />
+        <StyledLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" color="text-primary-light" new-tab />
+        <StyledLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" color="text-primary-light" new-tab />
       </div>
       <div class="container mx-auto">
         <Summary />

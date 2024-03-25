@@ -1,9 +1,7 @@
 <template>
-    <NuxtLink :to class="flex" :target="newTab ? '_blank' : ''">
-      <button class="flex items-center py-3 px-6 bg-secondary-light rounded-full text-white shadow-xl">
-        <NuxtIcon :name="icon" class="mr-3 text-2xl -mb-1" />
-        {{ label }}
-      </button>
+    <NuxtLink :to :target="newTab ? '_blank' : ''" class="flex" :class="color">
+      <NuxtIcon v-if="icon" :name="icon" class="mr-3 text-3xl -mb-1 my-auto" :class="color" />
+      <span class="text-2xl">{{ label }}</span>
     </NuxtLink>
 </template>
 <script setup>
@@ -23,6 +21,10 @@ defineProps({
   newTab: {
     type: Boolean,
     default: false
+  },
+  color: {
+    type: String,
+    required: false
   }
 })
 </script>
