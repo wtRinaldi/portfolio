@@ -64,4 +64,5 @@ function closeMenu() {
 .router-link-exact-active {
   @apply text-active
 }
+
 </style>

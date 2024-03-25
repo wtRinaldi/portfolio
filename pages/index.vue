@@ -14,8 +14,16 @@
             Experienced in React and Angular.  Proficient in Vue & Nuxt.
           </p>
         </div>
+
       </div>
-      <Summary />
+      <div class="container mx-auto flex flex-col md:flex-row items-center justify-around max-w-2xl my-20 gap-8">
+        <ButtonLink icon="email-contact" label="williamtrinaldi@gmail.com" />
+        <ButtonLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" new-tab />
+        <ButtonLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" new-tab />
+      </div>
+      <div class="container mx-auto">
+        <Summary />
+      </div>
   </NuxtLayout>
 
 </template>

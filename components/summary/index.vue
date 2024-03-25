@@ -2,7 +2,7 @@
   <div class="flex flex-col my-6 space-y-6 md:flex-row md:space-y-0 md:space-x-6 md:my-0">
     <SummaryCard class="flex-1">
       <template #header>
-        <figcaption class="text-2xl pb-4">Areas of expertise:</figcaption>
+        <figcaption class="text-2xl pb-4">Areas of expertise</figcaption>
       </template>
       <figure class="p-8">
         <ul class="list-disc pl-5">
