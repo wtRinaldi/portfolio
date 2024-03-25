@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="default"class="flex flex-col">
+  <NuxtLayout name="default" class="flex flex-col">
       <div class="flex flex-col view-height md:min-h-120 mb-12">
         <div class="container mx-auto flex flex-col justify-center items-center flex-1 bg-white min-h-60 lg:min-h-160 p-12">
           <img src="@/assets/icons/william-rinaldi.svg" alt="William Rinaldi logo" class="mb-6 md:mb-12 w-5/6 mx-auto" />
@@ -17,7 +17,7 @@
 
       </div>
       <div class="container mx-auto flex flex-col md:flex-row items-center justify-around max-w-2xl my-20 gap-8">
-        <ButtonLink icon="email-contact" label="williamtrinaldi@gmail.com" />
+        <ButtonLink icon="email-contact" to="/" label="williamtrinaldi@gmail.com" />
         <ButtonLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" new-tab />
         <ButtonLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" new-tab />
       </div>
@@ -25,7 +25,6 @@
         <Summary />
       </div>
   </NuxtLayout>
-
 </template>
 
 <script setup>
