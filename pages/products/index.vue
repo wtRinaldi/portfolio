@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="default">
+  <NuxtLayout>
     <div class="flex flex-wrap justify-center gap-4">
       <div v-for="product in products">
         <ProductCard :product="product"/>

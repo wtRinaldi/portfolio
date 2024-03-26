@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="contained">
+  <NuxtLayout>
     <div class="max-w-xl mx-auto pb-7 container">
       <h2>About Me:</h2>
       <p>

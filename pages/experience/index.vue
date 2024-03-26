@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLayout name="contained">
+    <NuxtLayout>
       experience
     </NuxtLayout>
   </div>
