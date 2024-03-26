@@ -39,11 +39,11 @@ Vue template
           duration-500 
           z-40"
    :class="[isShowMenu ? 'translate-y-14' : '-translate-y-72']">
-<nav class="mt-6 ml-12 mb-12">
-  <ul class="flex flex-col gap-4">
-     <!-- add list items here -->
-  </ul>
-</nav>
+    <nav class="mt-6 ml-12 mb-12">
+      <ul class="flex flex-col gap-4">
+         <!-- add list items here -->
+      </ul>
+    </nav>
 </div>
 ```
 ::

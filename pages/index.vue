@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="default" class="flex flex-col">
       <div class="flex flex-col view-height md:min-h-120 mb-12">
-        <div class="container mx-auto flex flex-col justify-center items-center flex-1 bg-white min-h-60 lg:min-h-160 p-12">
+        <div class="container mx-auto flex flex-col justify-center items-center flex-1 bg-white min-h-60 lg:min-h-160 p-12 md:p-16 lg:p-24 xl:p-36">
           <img src="@/assets/icons/william-rinaldi.svg" alt="William Rinaldi logo" class="mb-6 md:mb-12 w-5/6 mx-auto" />
           <img src="@/assets/icons/coeur-dalene-idaho.svg" alt="William Rinaldi logo" class="mb-16 w-1/2 md:w-1/3 mx-auto" />
           <img src="@/assets/icons/front-end-developer.svg" alt="William Rinaldi logo" class="mb-16 w-3/4 md:w-1/2 mx-auto" />
@@ -20,7 +20,7 @@
         <StyledLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" color="text-primary-light" new-tab />
         <StyledLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" color="text-primary-light" new-tab />
       </div>
-      <div class="container mx-auto">
+      <div class="container mx-auto px-2">
         <Summary />
       </div>
   </NuxtLayout>
