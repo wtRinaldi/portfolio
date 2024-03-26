@@ -3,7 +3,7 @@
     <SummaryCard class="flex-1">
       <template #header>
         <IconCircle name="user_attributes" class="mb-3" />
-        <div class="text-2xl pb-4 uppercase">Areas of expertise</div>
+        <div class="text-2xl pb-4 uppercase px-6">Areas of expertise</div>
       </template>
       <ul>
         <li>Vue / Nuxt</li>
