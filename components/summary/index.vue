@@ -1,10 +1,6 @@
 <template>
-  <div class="flex flex-col my-6 space-y-6 xl:flex-row xl:space-y-0 xl:space-x-6 xl:my-0 items-center">
-    <SummaryCard class="flex-1">
-      <template #header>
-        <IconCircle name="user_attributes" class="mb-3" />
-        <div class="text-2xl pb-4 uppercase px-6">Areas of expertise</div>
-      </template>
+  <div class="flex flex-wrap justify-around gap-6 mt-6">
+    <SummaryCard icon="user_attributes" label="Areas of expertise">
       <ul>
         <li>Vue / Nuxt</li>
         <li>Front End Architecture</li>
@@ -14,11 +10,7 @@
       </ul>
     </SummaryCard >
 
-    <SummaryCard class="flex-1">
-      <template #header>
-        <IconCircle name="factory" class="mb-3" />
-        <div class="text-2xl pb-4 uppercase">Industry Experience</div>
-      </template>
+    <SummaryCard icon="factory" label="Industry Experience">
       <ul>
         <li>Financial Tech</li>
         <li>Human Resources</li>
@@ -28,21 +20,14 @@
       </ul>
     </SummaryCard>
 
-    <SummaryCard class="flex-1">
-      <template #header>
-        <IconCircle name="mindfulness" class="mb-3" />
-        <div class="text-2xl pb-4 uppercase">Development Philosophies</div>
-      </template>
+    <SummaryCard icon="mindfulness" label="Dev Philosophies">
       <ul>
-        <li>DRY code</li>
+        <li>DRY</li>
         <li>Single Responsibility Principle</li>
-        <li>Explicit & Simple code</li>
+        <li>Explicit & Simple Code</li>
         <li>Mobile First Approach</li>
         <li>Use few lightweight libraries</li>
       </ul>
     </SummaryCard>
   </div>
 </template>
-<script setup lang="ts">
-import IconCircle from "~/components/common/IconCircle.vue";
-</script>
