@@ -9,7 +9,7 @@ Simple Animated Hamburger Menu with Tailwind
 ::
 
 ::SubTitle
-If you're seeking the cleanest method to create an animated hamburger menu, this is it.</h2>
+If you're seeking the cleanest method to create an animated hamburger menu, this is it.
 ::
 
 ::Paragraph

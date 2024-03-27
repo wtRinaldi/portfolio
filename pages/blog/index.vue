@@ -5,7 +5,7 @@
       <h2 class="text-secondary-light font-semibold">Topics in front end code, philosophies, soft skills, company culture and life.</h2>
     </div>
     <ContentList path="/blog" v-slot="{ list }">
-      <div v-for="article in list" :key="article._path" class="card max-w-3xl mx-auto p-5">
+      <div v-for="article in list" :key="article._path" class="card max-w-3xl mx-auto p-5 mb-6">
         <NuxtLink :to="article._path">
           <div class="flex justify-between">
             <div class="flex flex-col justify-between pr-12">
