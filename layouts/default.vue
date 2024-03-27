@@ -1,6 +1,6 @@
 <template>
   <Navigation />
-  <div class="container mx-auto bg-white view-height pt-6 px-6">
+  <div class="container mx-auto bg-white view-height">
     <slot />
   </div>
 </template>
