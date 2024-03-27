@@ -7,7 +7,17 @@
             <h2 class="hero-text-small pl-3">couer d'alene, idaho</h2>
           </div>
           <div class="absolute pr-[5%] pb-[5%] bottom-0 right-0 hero-text-small">front end developer</div>
-          <img src="/mountain.jpg" height="1920" width="1281" class="w-full"/>
+          <NuxtImg src="/photo-1486520299386-6d106b22014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Nzg2MDR8MHwxfGFsbHx8fHx8fHx8fDE3MTE1MDc5ODV8&ixlib=rb-4.0.3&q=80&w=1080"
+                   class="w-full"
+                   alt="mountains"
+                   loading="eager"
+                   width="1920"
+                   height="1280"
+                   sizes="sm:255px md:320px lg:480px xl:1280px"
+                   quality="60"
+                   format="webp"
+                   preload
+          />
         </div>
 
         <div class="flex justify-center items-center flex-1 lg:h-120 bg-primary-light text-white p-8 mt-12">
@@ -39,13 +49,13 @@ useHead({
   }]
 })
 
+const {data: images} = await useFetch('https://api.unsplash.com/photos/kKvQJ6rK6S4?client_id=OTfLDBVmthQNQp7qW8R8ERB-z3sNaz03pDxSpBNFCQI')
+// https://images.unsplash.com/photo-1486520299386-6d106b22014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Nzg2MDR8MHwxfGFsbHx8fHx8fHx8fDE3MTE1MDc5ODV8&ixlib=rb-4.0.3&q=80&w=1080
+
+//           <img src="/mountain.jpg" alt="mountains" height="1920" width="1281" class="w-full"/>
 </script>
 
 <style scoped>
-.view-height {
-  min-height: calc(100vh - 3.5rem)
-}
-
 .hero-text-large {
   font-size: clamp(1.5rem, 4vw + 1rem, 6rem);
 }
