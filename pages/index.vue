@@ -2,7 +2,7 @@
   <NuxtLayout name="contained-padded" class="flex flex-col">
       <div class="flex flex-col md:min-h-120 mb-12">
         <div class="relative font-thin tracking-widest mt-6 uppercase text-primary-light">
-          <NuxtImg src="/photo-1486520299386-6d106b22014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Nzg2MDR8MHwxfGFsbHx8fHx8fHx8fDE3MTE1MDc5ODV8&ixlib=rb-4.0.3&q=80&w=1080"
+          <NuxtImg src="/mountains_1920x1281.jpg"
                    class="w-full max-h-160 opacity-30 rounded-3xl"
                    alt="mountains"
                    loading="eager"
@@ -52,10 +52,6 @@ useHead({
   }]
 })
 
-const {data: images} = await useFetch('https://api.unsplash.com/photos/kKvQJ6rK6S4?client_id=OTfLDBVmthQNQp7qW8R8ERB-z3sNaz03pDxSpBNFCQI')
-// https://images.unsplash.com/photo-1486520299386-6d106b22014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Nzg2MDR8MHwxfGFsbHx8fHx8fHx8fDE3MTE1MDc5ODV8&ixlib=rb-4.0.3&q=80&w=1080
-
-//           <img src="/mountain.jpg" alt="mountains" height="1920" width="1281" class="w-full"/>
 </script>
 
 <style scoped>
