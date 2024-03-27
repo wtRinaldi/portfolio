@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="default">
+  <NuxtLayout name="contained-padded">
     <div class="max-w-3xl mx-auto pb-12">
       <h1 class="text-4xl md:text-7xl font-black py-6 lg:py-12">musings of a fe dev</h1>
       <h2 class="text-secondary-light font-semibold">Topics in front end code, philosophies, soft skills, company culture and life.</h2>

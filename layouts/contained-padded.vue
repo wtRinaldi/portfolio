@@ -1,6 +1,6 @@
 <template>
   <Navigation />
-  <div class="container mx-auto view-height">
+  <div class="container mx-auto view-height px-6">
     <slot />
   </div>
 </template>
@@ -10,3 +10,5 @@
 }
 
 </style>
+<script setup lang="ts">
+</script>

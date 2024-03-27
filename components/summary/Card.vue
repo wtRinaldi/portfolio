@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-96 min-w-96 max-w-lg border-2 rounded-2xl shadow">
+  <div class="flex flex-col min-h-96 min-w-96 border-2 rounded-3xl shadow bg-white">
     <div class="flex flex-col justify-center items-center uppercase pt-8 pb-6 text-primary-light font-bold tracking-wide">
       <slot name="header" />
     </div>

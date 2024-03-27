@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col my-6 space-y-6 lg:flex-row lg:space-y-0 lg:space-x-6 lg:my-0 items-center">
+  <div class="flex flex-col my-6 space-y-6 xl:flex-row xl:space-y-0 xl:space-x-6 xl:my-0 items-center">
     <SummaryCard class="flex-1">
       <template #header>
         <IconCircle name="user_attributes" class="mb-3" />

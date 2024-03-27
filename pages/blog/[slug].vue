@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout>
+  <NuxtLayout name="contained-padded">
     <ContentDoc :path="`/blog/${slug}`" v-slot="{ doc }">
       <article class="max-w-2xl mx-auto">
         <ContentRenderer :value="doc" />
