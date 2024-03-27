@@ -8,13 +8,13 @@
           </div>
           <div class="absolute pr-[5%] pb-[5%] bottom-0 right-0 hero-text-small">front end developer</div>
           <NuxtImg src="/photo-1486520299386-6d106b22014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Nzg2MDR8MHwxfGFsbHx8fHx8fHx8fDE3MTE1MDc5ODV8&ixlib=rb-4.0.3&q=80&w=1080"
-                   class="w-full"
+                   class="w-full max-h-160"
                    alt="mountains"
                    loading="eager"
                    width="1920"
                    height="1280"
                    sizes="sm:255px md:320px lg:480px xl:1280px"
-                   quality="60"
+                   quality="50"
                    format="webp"
                    preload
           />
@@ -61,7 +61,7 @@ const {data: images} = await useFetch('https://api.unsplash.com/photos/kKvQJ6rK6
 }
 
 .hero-text-small {
-  font-size: clamp(1rem, 2vw + 1rem, 4rem);
+  font-size: clamp(1rem, 1vw + 1rem, 4rem);
 }
 
 </style>
