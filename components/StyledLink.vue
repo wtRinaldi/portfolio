@@ -1,7 +1,7 @@
 <template>
     <NuxtLink :to :target="newTab ? '_blank' : ''" class="flex" :class="color">
       <NuxtIcon v-if="icon" :name="icon" class="mr-3 text-3xl -mb-1 my-auto" :class="color" />
-      <span class="text-2xl">{{ label }}</span>
+      <span class="text-xl">{{ label }}</span>
     </NuxtLink>
 </template>
 <script setup>

@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="contained-padded" class="flex flex-col">
       <div class="flex flex-col md:min-h-120 mb-12">
-        <div class="relative font-thin tracking-widest mt-6 uppercase text-primary-light">
+        <div class="relative tracking-widest mt-6 uppercase text-primary-light">
           <NuxtImg src="/mountains_1920x1281.jpg"
                    class="w-full max-h-160 opacity-30 rounded-3xl"
                    alt="mountains"
@@ -15,14 +15,14 @@
           />
           <div class="absolute pl-[5%] pt-[3%] lg:pt-[2%] left-0 top-0">
             <h1 class="hero-text-large">william rinaldi</h1>
-            <h2 class="hero-text-small pl-2">couer d'alene, idaho</h2>
+            <h2 class="hero-text-small pl-1">couer d'alene, idaho</h2>
           </div>
           <div class="absolute pr-[5%] pb-[4%] bottom-0 right-0 hero-text-small">front end developer</div>
         </div>
 
-        <div class="flex flex-col md:flex-row gap-6">
-          <div class="flex justify-center items-center flex-1 min-h-96 bg-primary-light text-white p-8 mt-6 rounded-3xl">
-            <p class="font-thin max-w-xl text-md sm:text-lg md:text-xl lg:text-2xl leading-loose text-center">
+        <div class="flex flex-col lg:flex-row gap-6">
+          <div class="flex justify-center items-center flex-[2] min-h-96 bg-primary-light text-white p-8 mt-6 rounded-3xl">
+            <p class="font-light max-w-xl text-lg md:text-xl xl:text-2xl text-center !leading-[36px]">
               Experienced front-end developer specializing in crafting immersive user experiences.
               With seven years of hands-on experience, I excel in sophisticated data-heavy applications, and thrive on translating complex designs into clean code.
               Experienced in React and Angular.  Proficient in Vue & Nuxt.
@@ -31,6 +31,7 @@
           <div class="flex flex-col justify-center items-center flex-1 min-h-96 bg-quinary rounded-3xl md:mt-6 gap-8">
             <StyledLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" color="text-primary-light" new-tab />
             <StyledLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" color="text-primary-light" new-tab />
+            <div class="text-xl">williamtrinaldi@gmail.com</div>
           </div>
         </div>
 

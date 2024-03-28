@@ -2,7 +2,7 @@
   <div class="flex flex-wrap justify-around gap-6 mt-6">
     <SummaryCard icon="user_attributes" label="Areas of expertise">
       <ul>
-        <li>Vue / Nuxt</li>
+        <li>Vue / Nuxt / Tailwind</li>
         <li>Front End Architecture</li>
         <li>Page Speed Optimization</li>
         <li>Mobile First Development</li>
@@ -14,7 +14,7 @@
       <ul>
         <li>Financial Tech</li>
         <li>Human Resources</li>
-        <li>Insurance Industry</li>
+        <li>Insurance</li>
         <li>Compliance</li>
         <li>E-Commerce</li>
       </ul>
@@ -22,11 +22,11 @@
 
     <SummaryCard icon="mindfulness" label="Dev Philosophies">
       <ul>
-        <li>DRY</li>
-        <li>Single Responsibility Principle</li>
         <li>Explicit & Simple Code</li>
-        <li>Mobile First Approach</li>
-        <li>Use few lightweight libraries</li>
+        <li>Mobile First Development</li>
+        <li>DRY - Don't Repeat Yourself</li>
+        <li>SRP - Single Responsibility Principle</li>
+        <li>Small modular functions</li>
       </ul>
     </SummaryCard>
   </div>
