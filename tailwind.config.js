@@ -33,6 +33,7 @@ export default {
         quaternary: '#C2DFE3',
         quinary: '#E0FBFC',
         active: '#5C6B73',
+        link: '#2563EB',
         success: '',
         danger: '',
         warning: '',

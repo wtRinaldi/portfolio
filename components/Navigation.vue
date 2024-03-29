@@ -22,18 +22,18 @@
     <nav class="container mx-auto p-4 w-full">
       <div class="hidden lg:flex justify-between">
         <NuxtLink to="/" class="font-bold" @click="closeMenu">William Rinaldi</NuxtLink>
-        <ul class="flex gap-4">
+        <ul class="flex gap-6">
           <li>
-            <NuxtLink to="/about" @click="closeMenu">About</NuxtLink>
+            <NuxtLink to="/about" @click="closeMenu" class="desktop-navigation-option">About</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/experience" @click="closeMenu">Experience</NuxtLink>
+            <NuxtLink to="/experience" @click="closeMenu" class="desktop-navigation-option">Experience</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/blog" @click="closeMenu">Blog</NuxtLink>
+            <NuxtLink to="/blog" @click="closeMenu" class="desktop-navigation-option">Blog</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/ui-elements" @click="closeMenu">UI Elements</NuxtLink>
+            <NuxtLink to="/ui-elements" @click="closeMenu" class="desktop-navigation-option">UI Elements</NuxtLink>
           </li>
         </ul>
       </div>
@@ -66,7 +66,11 @@ function closeMenu() {
 }
 
 .mobile-navigation-option {
-  @apply flex items-center h-16 hover:bg-quinary rounded-full pl-6;
+  @apply flex items-center h-16 hover:bg-quinary rounded-full pl-6 hover:transition-colors duration-500 ease-in-out
+}
+
+.desktop-navigation-option {
+  @apply hover:bg-quinary rounded-full px-3 py-2 hover:transition-colors duration-500 ease-in-out
 }
 
 </style>

@@ -52,17 +52,17 @@ Simply create slotted components that style your markdown content, complete with
 Using the component in the markdown file
 ::
 
-::Paragraph
-Use two colons ::ComponentName as an opening tag before your content and two colons :: after your content as a closing tag.
-This passes the content between the tags to the slot.
-::
-
 ::CodeBlock
 ```markdown
 ::MainTitle
  How to style Nuxt Content markdown files
 ::
 ```
+::
+
+::CodeDescription
+Use two colons ::ComponentName as an opening tag before your content and two colons :: after your content as a closing tag.
+This passes the content between the tags to the slot.
 ::
 
 ::Paragraph
@@ -72,7 +72,10 @@ Now you're free to use scoped styles or Tailwind classes as you would expect in 
 ::Paragraph
 So far, I've created headers, subheaders, title, paragraph, and code block components to create this blog.
 Styling your content becomes very easy after setting up some basic components.
-I'll cover the code block component in a later blog post.
+
+:::ContentLink{to="/blog/nuxt-content-code-block"}
+Read more about using the CodeBlock component here.
+:::
 ::
 
 ::Paragraph
