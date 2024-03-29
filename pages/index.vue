@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="contained-padded" class="flex flex-col">
+  <NuxtLayout name="contained-padded">
       <div class="flex flex-col md:min-h-120 gap-8">
         <div class="relative tracking-widest mt-6 uppercase text-primary-light shadow-xl rounded-3xl">
           <NuxtImg src="/mountains_1920x1281.jpg"
@@ -15,7 +15,7 @@
           />
 
           <div class="absolute top-0 bottom-0 left-0 right-0 mx-auto my-auto
-            w-2/3 max-w-120 h-fit flex flex-col items-center border-2 border-primary-light text-primary-light hero-box-padding bg-quinary">
+            w-2/3 max-w-120 h-fit flex flex-col items-center border border-secondary-light text-primary-light hero-box-padding bg-quinary">
             <h1 class="hero-text-large mb-3 font-bold">william rinaldi</h1>
             <h2 class="hero-text-small mb-1">couer d'alene, idaho</h2>
             <h2 class="hero-text-small">front end developer</h2>

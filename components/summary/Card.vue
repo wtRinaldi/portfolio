@@ -6,7 +6,7 @@
         <div class="flex items-center text-xl  uppercase px-6 font-medium">{{ label }}</div>
       </div>
     </div>
-    <div class="flex items-center px-8 mx-3 mb-3 rounded-b-xl leading-relaxed text-xl flex-1">
+    <div class="flex items-center px-8 mx-3 mb-3 rounded-b-xl leading-relaxed text-lg flex-1">
       <slot />
     </div>
   </div>
