@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap justify-around gap-6 mt-6">
+  <div class="flex flex-col xl:flex-row justify-around gap-8 w-full">
     <SummaryCard icon="user_attributes" label="Areas of expertise">
       <ul>
         <li>Vue / Nuxt / Tailwind</li>
@@ -24,9 +24,9 @@
       <ul>
         <li>Explicit & Simple Code</li>
         <li>Mobile First Development</li>
-        <li>DRY - Don't Repeat Yourself</li>
-        <li>SRP - Single Responsibility Principle</li>
         <li>Small modular functions</li>
+        <li>Don't Repeat Yourself</li>
+        <li>Single Responsibility Principle</li>
       </ul>
     </SummaryCard>
   </div>

@@ -1,9 +1,9 @@
 <template>
   <NuxtLayout name="contained-padded" class="flex flex-col">
-      <div class="flex flex-col md:min-h-120 mb-12">
-        <div class="relative tracking-widest mt-6 uppercase text-primary-light">
+      <div class="flex flex-col md:min-h-120 mb-12 gap-12">
+        <div class="relative tracking-widest mt-6 uppercase text-primary-light shadow-xl rounded-3xl">
           <NuxtImg src="/mountains_1920x1281.jpg"
-                   class="w-full max-h-160 opacity-30 rounded-3xl"
+                   class="w-full max-h-160 opacity-25 rounded-3xl"
                    alt="mountains"
                    loading="eager"
                    width="1920"
@@ -13,32 +13,32 @@
                    format="webp"
                    preload
           />
-          <div class="absolute pl-[5%] pt-[3%] lg:pt-[2%] left-0 top-0">
-            <h1 class="hero-text-large">william rinaldi</h1>
-            <h2 class="hero-text-small pl-1">couer d'alene, idaho</h2>
+
+          <div class="absolute top-0 bottom-0 left-0 right-0 mx-auto my-auto
+            w-2/3 max-w-120 h-fit flex flex-col items-center border-2 border-primary-light text-primary-light hero-box-padding bg-quinary">
+            <h1 class="hero-text-large mb-3 font-bold">william rinaldi</h1>
+            <h2 class="hero-text-small mb-1">couer d'alene, idaho</h2>
+            <h2 class="hero-text-small">front end developer</h2>
           </div>
-          <div class="absolute pr-[5%] pb-[4%] bottom-0 right-0 hero-text-small">front end developer</div>
         </div>
 
-        <div class="flex flex-col lg:flex-row gap-6">
-          <div class="flex justify-center items-center flex-[2] min-h-96 bg-primary-light text-white p-8 mt-6 rounded-3xl">
-            <p class="font-light max-w-xl text-lg md:text-xl xl:text-2xl text-center !leading-[36px]">
+        <div class="flex flex-col lg:flex-row shadow-xl rounded-3xl">
+          <div class="flex justify-center items-center min-h-96 bg-primary-light text-white p-8 rounded-3xl w-full">
+            <p class="font-light max-w-xl text-lg md:text-xl xl:text-2xl text-center leading-relaxed !lg:leading-[36px]">
               Experienced front-end developer specializing in crafting immersive user experiences.
               With seven years of hands-on experience, I excel in sophisticated data-heavy applications, and thrive on translating complex designs into clean code.
               Experienced in React and Angular.  Proficient in Vue & Nuxt.
             </p>
           </div>
-          <div class="flex flex-col justify-center items-center flex-1 min-h-96 bg-quinary rounded-3xl md:mt-6 gap-8">
-            <StyledLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" color="text-primary-light" new-tab />
-            <StyledLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" color="text-primary-light" new-tab />
-            <div class="text-xl">williamtrinaldi@gmail.com</div>
-          </div>
         </div>
 
-        <div class="flex flex-col">
-          <Summary />
+        <div class="flex flex-col md:flex-row justify-center items-center self-center gap-12 max-w-xl my-8">
+          <StyledLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" color="text-primary-light" new-tab />
+          <div class="text-xl">williamtrinaldi@gmail.com</div>
+          <StyledLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" color="text-primary-light" new-tab />
         </div>
 
+        <Summary />
       </div>
   </NuxtLayout>
 </template>
@@ -57,11 +57,23 @@ useHead({
 
 <style scoped>
 .hero-text-large {
-  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+  font-size: clamp(1.65rem, 2vw, 2.8rem);
 }
 
 .hero-text-small {
-  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-size: clamp(1rem, 2vw, 1.35rem);
+}
+
+.hero-text-large {
+  @apply text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl
+}
+
+.hero-text-small {
+  @apply text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
+}
+
+.hero-box-padding {
+  @apply py-6 sm:py-10 md:py-12 lg:py-14 xl:py-16
 }
 
 </style>

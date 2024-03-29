@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col min-h-80 border rounded-3xl shadow bg-white w-full max-w-120">
-    <div class="flex flex-col justify-center items-center uppercase pt-8 pb-6 text-primary-light font-bold tracking-wide">
+  <div class="flex flex-col min-h-80 rounded-3xl shadow-xl bg-white w-full min-w-96">
+    <div class="flex flex-col justify-center items-center uppercase pt-8 pb-6 text-primary-light font-bold tracking-wide border-b">
       <div class="flex w-full">
         <CommonIconCircle :name="icon" class="ml-6" />
         <div class="flex items-center text-xl  uppercase px-6 font-medium">{{ label }}</div>
       </div>
     </div>
-    <div class="flex items-center px-8 mx-3 mb-3 rounded-b-xl bg-secondary-light text-white leading-relaxed text-xl flex-1 font-light">
+    <div class="flex items-center px-8 mx-3 mb-3 rounded-b-xl leading-relaxed text-xl flex-1">
       <slot />
     </div>
   </div>
