@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="contained-padded" class="flex flex-col">
-      <div class="flex flex-col md:min-h-120 mb-12 gap-12">
+      <div class="flex flex-col md:min-h-120 gap-8">
         <div class="relative tracking-widest mt-6 uppercase text-primary-light shadow-xl rounded-3xl">
           <NuxtImg src="/mountains_1920x1281.jpg"
                    class="w-full max-h-160 opacity-25 rounded-3xl"
@@ -32,7 +32,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col md:flex-row justify-center items-center self-center gap-12 max-w-xl my-8">
+        <div class="flex flex-col md:flex-row justify-center items-center self-center gap-8 max-w-xl my-8">
           <StyledLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" color="text-primary-light" new-tab />
           <div class="text-xl">williamtrinaldi@gmail.com</div>
           <StyledLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" color="text-primary-light" new-tab />
