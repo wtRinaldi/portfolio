@@ -34,7 +34,7 @@ content: {
 ::
 
 ::CodeDescription
-After you've installed Nuxt Config, you should be able to add the content object to your nuxt.config file.
+After you've installed Nuxt Content, you should be able to add the content object to your nuxt.config file.
 Here you can add a highlight theme to your code.
 ::
 
@@ -66,9 +66,9 @@ Consuming the CodeBlock component
 ::CodeBlock
 ```markdown
 ::CodeBlock
-```vue {code language (i.e vue, js, ... etc)}
+```vue (code language (i.e vue, js, ... etc)
 add code here to be rendered in code block
-```{closing backtick tag}
+```(closing backtick tag)
 ::
 ```
 ::
