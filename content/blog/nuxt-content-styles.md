@@ -4,7 +4,7 @@ description: 'How to style Nuxt Content markdown files'
 
 ---
 
-::MainTitle
+::ContentH1
 How to style Nuxt Content markdown files
 ::
 

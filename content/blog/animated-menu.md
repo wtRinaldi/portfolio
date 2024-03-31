@@ -4,7 +4,7 @@ description: 'A super simple way of animating a hamburger menu with Vue & Tailwi
 
 ---
 
-::MainTitle
+::ContentH1
 Simple Animated Hamburger Menu with Tailwind
 ::
 

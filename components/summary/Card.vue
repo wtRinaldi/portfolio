@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-72 rounded-3xl shadow-xl bg-white w-full">
+  <div class="flex flex-col min-h-72 rounded-3xl shadow-lg bg-white w-full">
     <div class="flex flex-col justify-center items-center uppercase py-5 text-primary-light tracking-wide border-b">
       <div class="flex w-full">
         <CommonIconCircle :name="icon" class="ml-6" />

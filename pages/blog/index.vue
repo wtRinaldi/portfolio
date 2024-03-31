@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="contained-padded">
     <div class="max-w-3xl mx-auto pb-12">
-      <h1 class="text-4xl md:text-7xl font-black py-6 lg:py-12">musings of a fe dev</h1>
+      <h1 class="text-4xl md:text-7xl font-black py-6 lg:py-11">musings of a fe dev</h1>
       <h2 class="text-secondary-light font-semibold">Topics in front end code, philosophies, soft skills, company culture and life.</h2>
     </div>
     <ContentList :query="query" v-slot="{ list }">
@@ -27,6 +27,5 @@
 </template>
 
 <script setup>
-
 const query = { path: '/blog', sort: [{ date: -1 }] }
 </script>

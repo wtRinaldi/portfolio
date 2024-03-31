@@ -4,7 +4,7 @@ description: 'How to create a Nuxt Content code block'
 
 ---
 
-::MainTitle
+::ContentH1
 How to create a Nuxt Content code block
 ::
 
@@ -24,7 +24,10 @@ Setup in nuxt.config
 ::CodeBlock
 ```js
 export default defineNuxtConfig({
-modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt', '@nuxt/content'],
+modules: ['@nuxt/image', 
+    'nuxt-icons',
+    '@vite-pwa/nuxt',
+    '@nuxt/content'],
 content: {
     highlight: {
         theme: 'github-dark'

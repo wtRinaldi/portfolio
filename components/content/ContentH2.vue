@@ -1,5 +1,5 @@
 <template>
-  <div class="font-semibold text-primary-light pb-6">
+  <h2 class="font-semibold text-primary-light pb-6 pt-4 text-lg">
     <slot />
-  </div>
+  </h2>
 </template>
