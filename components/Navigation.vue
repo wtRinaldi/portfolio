@@ -22,7 +22,7 @@
     <nav class="container mx-auto p-4 w-full">
       <div class="hidden lg:flex justify-between">
         <NuxtLink to="/" class="font-bold" @click="closeMenu">William Rinaldi</NuxtLink>
-        <ul class="flex gap-6">
+        <ul class="flex gap-4">
           <li>
             <NuxtLink to="/about" @click="closeMenu" class="desktop-navigation-option">About</NuxtLink>
           </li>

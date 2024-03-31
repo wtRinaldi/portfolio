@@ -34,7 +34,7 @@
 
         <div class="flex flex-col md:flex-row justify-center items-center self-center gap-8 max-w-xl my-8">
           <StyledLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" color="text-primary-light" new-tab />
-          <div class="text-xl">williamtrinaldi@gmail.com</div>
+          <div class="text-lg font-medium">williamtrinaldi@gmail.com</div>
           <StyledLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" color="text-primary-light" new-tab />
         </div>
 

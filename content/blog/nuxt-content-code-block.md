@@ -57,8 +57,6 @@ There's nothing special about the code block component compared to other content
 You can see that I've applied a background color and overflow-x but nothing to apply code highlighting.
 ::
 
-<br />
-
 ::ContentH2
 Consuming the CodeBlock component
 ::

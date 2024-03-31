@@ -12,12 +12,12 @@
               <h1 class="font-bold text-lg lg:text-xl mb-2 text-primary-light">{{ article.title }}</h1>
               <p class="text-secondary-light">{{ article.description }}</p>
             </div>
-            <div class="flex flex-col justify-between">
-              <div class="text-sm font-semibold text-gray-500 flex justify-end">
+            <div class="flex flex-col justify-between items-end">
+              <div class="flex text-white rounded-full text-sm font-semibold bg-secondary-light pt-0.5 px-2">
                 <NuxtIcon name="code" class="text-xl mr-1" />
-                <span>Code</span>
+                <span>code</span>
               </div>
-              <p class="text-sm font-semibold text-gray-500 self-end">{{ article.date }}</p>
+              <p class="text-sm font-semibold text-gray-500 mr-1">{{ article.date }}</p>
             </div>
           </div>
         </NuxtLink>
