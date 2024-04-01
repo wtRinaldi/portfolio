@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col xl:flex-row justify-around gap-8 w-full">
+  <div class="flex flex-col xl:flex-row justify-around gap-6 w-full">
     <SummaryCard icon="user_attributes" label="Areas of expertise">
       <ul>
         <li>Vue / Nuxt / Tailwind</li>

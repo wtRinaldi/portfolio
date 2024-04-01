@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="contained-padded">
-      <div class="flex flex-col md:min-h-120 gap-8">
+      <div class="flex flex-col md:min-h-120 gap-6">
         <div class="relative tracking-widest mt-6 uppercase text-primary-light shadow-lg rounded-3xl">
           <NuxtImg src="/mountains_1920x1281.jpg"
                    class="w-full max-h-160 opacity-25 rounded-3xl"
