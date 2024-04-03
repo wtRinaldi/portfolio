@@ -12,7 +12,10 @@ body {
         @apply bg-blue-600 text-white px-3 py-2 rounded-md;
     }
     .card {
-        @apply p-3 rounded-md bg-white shadow-lg;
+        @apply p-3 rounded-md bg-white shadow;
+    }
+    .selectable-card {
+        @apply shadow hover:shadow-lg
     }
     .code {
         @apply overflow-x-auto bg-blue-400
