@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="contained-padded">
       <div class="flex flex-col md:min-h-120 gap-6">
-        <div class="relative tracking-widest mt-6 uppercase text-primary-light shadow-lg rounded-3xl">
+        <div class="relative tracking-widest mt-6 uppercase text-primary-light shadow rounded-3xl">
           <NuxtImg src="/mountains_1920x1281.jpg"
                    class="w-full max-h-160 opacity-25 rounded-3xl"
                    alt="mountains"
@@ -22,7 +22,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col lg:flex-row shadow-lg rounded-3xl">
+        <div class="flex flex-col lg:flex-row shadow rounded-3xl">
           <div class="flex justify-center items-center min-h-96 bg-primary-light text-white p-8 rounded-3xl w-full">
             <p class="font-light max-w-xl text-lg md:text-xl xl:text-2xl text-center leading-relaxed !lg:leading-[36px]">
               Experienced front-end developer specializing in crafting immersive user experiences.
@@ -32,7 +32,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col md:flex-row justify-center items-center self-center gap-8 max-w-xl my-8">
+        <div class="flex flex-col md:flex-row justify-center items-center self-center max-w-xl my-20">
           <StyledLink icon="linkedin" to="https://www.linkedin.com/in/wtrinaldi/" label="LinkedIn" color="text-primary-light" new-tab />
           <div class="text-lg font-medium">williamtrinaldi@gmail.com</div>
           <StyledLink icon="github" to="https://github.com/wtRinaldi" label="GitHub" color="text-primary-light" new-tab />
