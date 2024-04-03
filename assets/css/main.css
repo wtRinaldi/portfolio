@@ -9,13 +9,13 @@ body {
 
 @layer components {
     .btn {
-        @apply bg-blue-600 text-white px-3 py-2 rounded-md;
+        @apply bg-blue-600 text-white px-3 py-2 rounded-md
     }
     .card {
-        @apply p-3 rounded-md bg-white shadow;
+        @apply p-3 rounded-md bg-white shadow
     }
     .selectable-card {
-        @apply shadow hover:shadow-lg
+        @apply shadow hover:shadow-lg transition-shadow ease-in-out duration-500
     }
     .code {
         @apply overflow-x-auto bg-blue-400
