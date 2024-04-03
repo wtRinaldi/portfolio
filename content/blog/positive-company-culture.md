@@ -1,6 +1,7 @@
 ---
-date: '3.20.2024'
-description: 'A super simple way of animating a hamburger menu with Vue & Tailwind CSS'
+date: '4.03.2024'
+description: 'What makes a culture positive?'
+type: 'culture'
 
 ---
 

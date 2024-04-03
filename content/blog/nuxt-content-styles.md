@@ -1,7 +1,7 @@
 ---
 date: '3.27.2024'
 description: 'How to style Nuxt Content markdown files'
-
+type: 'code'
 ---
 
 ::ContentH1

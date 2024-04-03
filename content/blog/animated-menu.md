@@ -1,7 +1,7 @@
 ---
 date: '3.20.2024'
 description: 'A super simple way of animating a hamburger menu with Vue & Tailwind CSS'
-
+type: 'code'
 ---
 
 ::ContentH1
