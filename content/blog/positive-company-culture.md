@@ -6,7 +6,7 @@ type: 'culture'
 ---
 
 ::ContentH1
-Creating a Positve Company Culture
+What makes a company culture positive?
 ::
 
 ::SubTitle
