@@ -49,11 +49,14 @@ export default defineNuxtConfig({
     imageKey: process.env.UNSPLASH_API_KEY
   },
 
-  modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt', '@nuxt/content'],
+  modules: ['@nuxt/image', 'nuxt-icons', '@vite-pwa/nuxt', '@nuxt/content', '@nuxtjs/sitemap'],
   content: {
     highlight: {
       theme: 'github-dark'
     }
+  },
+  site: {
+    url: 'https://williamrinaldi.com',
   },
   pwa: {
     // workbox: {
