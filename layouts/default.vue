@@ -1,9 +1,8 @@
 <template>
   <LayoutNavigation />
-  <div class="container mx-auto view-height">
+  <div class="container mx-auto view-height pt-14">
     <slot />
   </div>
-  <LayoutFooter />
 </template>
 <style scoped>
 .view-height {
