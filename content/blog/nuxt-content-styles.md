@@ -17,9 +17,10 @@ When first getting acquainted with Nuxt content, I was a bit unclear on how to a
 ::
 
 ::Paragraph
-I couldn't find much information on the subject of adding styles to Nuxt Content but did come across a YouTube video suggesting to apply styles to the files using the <ContentDoc /> component.
+I couldn't find much information on the subject of adding styles to Nuxt Content but did come across a YouTube video suggesting to apply styles to the files using the 'ContentDoc' or 'ContentRender' components.
+This would be where you would be rendering the individual markdown file.
 The creator of the video correctly noted that the scoped style tag will not work and to apply styles with CSS ':deep' selector.
-This works but it's not a very pleasant developer experience.
+This works, but it's not a very pleasant developer experience.
 There is a much simpler way.
 ::
 

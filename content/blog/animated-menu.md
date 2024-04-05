@@ -1,6 +1,6 @@
 ---
 date: '3.20.2024'
-description: 'A super simple way of animating a hamburger menu with Vue & Tailwind CSS'
+description: 'Simple animated menu dropdown with Vue & Tailwind CSS'
 type: 'code'
 ---
 
@@ -30,7 +30,7 @@ Vue template
 ::CodeBlock
 ```html
 <div class="w-full 
-          absolute 
+          fixed 
           left-0 
           bg-white 
           lg:hidden 
