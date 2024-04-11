@@ -33,3 +33,9 @@ body {
         scrollbar-width: none;  /* Firefox */
     }
 }
+
+@layer base {
+    ul, ol {
+        list-style: revert;
+    }
+}

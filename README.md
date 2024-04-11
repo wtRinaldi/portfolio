@@ -1,4 +1,4 @@
-# Nuxt Store example ecommerce site
+# Nuxt portfolio site
 
 Visit deployed project:
 https://williamrinaldi.com/
