@@ -15,7 +15,7 @@
             <div class="flex flex-col justify-between items-end">
               <div class="flex text-white rounded-full text-sm font-semibold bg-secondary-light pt-0.5 px-2">
                 <NuxtIcon :name="article.type" class="text-xl mr-1.5" />
-                <span>{{ article.type }}</span>
+                <span class="text-nowrap">{{ article.type }}</span>
               </div>
               <p class="text-sm font-semibold text-gray-500 mr-1">{{ article.date }}</p>
             </div>

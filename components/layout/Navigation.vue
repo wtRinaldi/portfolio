@@ -2,7 +2,7 @@
   <header class="w-full fixed top-0 left-0 bg-white lg:hidden transition-transform ease-in-out duration-500 z-40"
        :class="[isShowMenu ? 'translate-y-14' : '-translate-y-72']">
     <nav class="mt-6 mx-12 mb-10">
-      <ul class="flex flex-col gap-2">
+      <ul class="flex flex-col gap-2 list-none">
         <li>
           <NuxtLink to="/about" @click="closeMenu" class="mobile-navigation-option">About</NuxtLink>
         </li>
