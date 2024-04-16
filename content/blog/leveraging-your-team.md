@@ -10,7 +10,7 @@ Get more done by leveraging your team
 ::
 
 ::SubTitle
-We should rely on the skills of other to produce more.
+Relying on the strengths of others to get more done
 ::
 
 ::Paragraph

@@ -27,7 +27,7 @@
             <p class="font-light max-w-xl text-lg md:text-xl xl:text-2xl text-center leading-relaxed !lg:leading-[36px]">
               Experienced front-end developer specializing in crafting immersive user experiences.
               With seven years of hands-on experience, I excel in sophisticated data-heavy applications, and thrive on translating complex designs into clean code.
-              Experienced in React and Angular.  Proficient in Vue & Nuxt.
+              Proficient in Vue/Nuxt & React.
             </p>
           </div>
         </div>

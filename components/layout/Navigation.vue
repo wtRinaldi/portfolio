@@ -12,9 +12,6 @@
         <li>
           <NuxtLink to="/blog" @click="closeMenu" class="mobile-navigation-option">Blog</NuxtLink>
         </li>
-        <li>
-          <NuxtLink to="/ui-elements" @click="closeMenu" class="mobile-navigation-option">UI Elements</NuxtLink>
-        </li>
       </ul>
     </nav>
   </header>
@@ -31,9 +28,6 @@
           </li>
           <li>
             <NuxtLink to="/blog" @click="closeMenu" class="desktop-navigation-option">Blog</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/ui-elements" @click="closeMenu" class="desktop-navigation-option">UI Elements</NuxtLink>
           </li>
         </ul>
       </div>
