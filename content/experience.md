@@ -17,7 +17,7 @@ Interactive Brokers - Front End Developer - 2022
 ::
 
 ::Paragraph
-Resolved issues within the existing Vue component library, enhancing the usability and performance of the components
+Resolved issues within the existing Vue component library, enhancing the usability and performance of the components.
 ::
 
 ::ContentH2
@@ -59,7 +59,7 @@ Self - Mentor for Udacity - 2016-2022
 ::
 
 ::Paragraph
-Contracted as a Udacity mentor & reviewer having reviewed over 2100 projects and recognized as a high performer
+Contracted as a Udacity mentor & reviewer having reviewed over 2100 projects and recognized as a high performer.
 ::
 
 ::ContentH2
