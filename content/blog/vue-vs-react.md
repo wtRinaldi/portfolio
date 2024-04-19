@@ -77,35 +77,40 @@ Example of Child that alters data consumed in both parent and grandchild
 
 ::CodeBlock
 ```vue
+// FilterPanel.vue
 <template>
-    <FilterIngredientsSelect v-model:selected-ingredient="selectedIngredient" />
     <FilterAuthor v-model:selected-author-email="selectedAuthorEmail" class="mb-2"/>
     <button @click="clearFilters">Clear Filters</button>
 </template>
 
 <script setup>
-  const selectedIngredient = defineModel('selectedIngredient')
   const selectedAuthorEmail = defineModel('selectedAuthorEmail')
 
   function clearFilters() {
     selectedAuthorEmail.value = ''
-    selectedIngredient.value = ''
   }
 </script>
 ```
 ::
 
 ::CodeDescription
-clearFilters clears the values of the inputs grandchildren and the updates the data in the parent that consumes the model values in an api.
-The grandchild can also set the value but still only defines the v-model.
+This component, 'FilterPanel.vue', is the child of a component, called 'Recipes.vue', and the parent of 'FilterAuthor.vue'.
+It passes the data through to the grandchild and parent but also alters the data in the middle while still being very simplistic. (There were more filter components that I've removed to make this example clearer.)
+FilterAuthor is the grandchild of 'Recipes.vue' that calls an api on change of the selectedAuthor value.
+::
+
+::CodeDescription
+clearFilters clears the values of the variable consumed in both the grandchild input components and the parent container.
+The grandchild can also set the value but still only needs to define a v-model.
+There's no need to add functions to handle these values.
 ::
 
 ::Paragraph
-This pattern carried across a large application in React would require increase complexity to carry out the same behavior. 
+This pattern carried across a large application in React would require increased complexity to carry out the same behavior. 
 ::
 
 ::ContentH2
-React passes values and listens for events in the same way the Vue does without v-model
+React passes values and listens for events in the same way the Vue would if v-model didn't exist
 ::
 
 ::CodeBlock
@@ -135,11 +140,11 @@ function Input({ label }) {
 
 ::CodeDescription
 In comparison, React has the added handler from the handleChange function on change, and passes the text to value.
+In the scenario of the Parent / Child / Grandchild, those functions would also have to be passed with the value.
 ::
 
 ::Paragraph
-I believe this is just one area where Vue is React.
-There are other that I will cover in future post.
+I believe this is just one area where Vue is better than React and there are others that I will cover in future blog posts.
 Personally, I would choose Vue over React when starting a new application or re-developing a poor quality React application.
 The benefits of v-model, in my opinion, wouldn't be enough to justify rewriting a high quality React application but may be worth considering in some scenarios.
 ::
