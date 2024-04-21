@@ -1,6 +1,6 @@
 ---
 date: '4.19.2024'
-description: 'Why I prefer Vue to React?'
+description: 'One reason to consider Vue over React'
 type: 'architecture'
 
 ---
@@ -10,12 +10,12 @@ Vue vs React
 ::
 
 ::SubTitle
-One of the advantages of Vue over React
+Just one of the advantages of Vue over React
 ::
 
 ::Paragraph
-There are times when Front End developers are asked to steer the direction of technologies that are used.
-If you're in the position of making this decision, consider some of the advantages of Vue over React.
+Front-end developers often find themselves in the position of choosing technologies for their projects.
+If you're making this decision, consider Vue's advantages over React.
 ::
 
 ::ContentH2
@@ -23,56 +23,25 @@ One-way binding vs Two-way binding
 ::
 
 ::Paragraph
-It is often said that React is one-way binding and Vue is two-way binding.
-If you search for the difference between the two, you'll find plenty of content making this claim.
-::
-
-::Paragraph
-This is only partially true.
-The more correct statement would be to say that Vue contains shorthand for a common pattern of passing props and listening for and setting data on events, whereas React does not.
+While React is often labeled as employing one-way binding and Vue as using two-way binding, this oversimplification doesn't fully capture the distinction.
+Vue offers shorthand for common patterns like passing props and handling events, which React lacks.
 ::
 
 ::ContentH2
-Vue v-model
-::
-
-::CodeBlock
-```vue
-<template>
-    <input v-model="name" />
-</template>
-<script setup>
-  const name = ref('')
-</script>
-```
-::
-
-::CodeDescription
-The v-model is just shorthand for a similar pattern that is also used in React.
-It replaces the code below.
-::
-
-::CodeBlock
-```vue
-<template>
-    <input :value="name" @input="(e) => name = e.target.value" />
-</template>
-<script setup>
-  const name = ref('')
-</script>
-```
-::
-
-::CodeDescription
-The input component would have emitted an event on update or change that contains the value of the input.
+Vue's v-model
 ::
 
 ::Paragraph
-Code is more greatly simplified when components have both a child and grandchild or greater.
+Vue's v-model provides shorthand for data binding, simplifying code compared to React's approach of manually handling input events.
 ::
 
 ::ContentH2
-Example of Child that alters data consumed in both parent and grandchild
+Example of Data Flow in Vue Components
+::
+
+::Paragraph
+Consider a scenario where a child component updates data consumed by both its parent and grandchild.
+In fact, all level of this form updated the state with just a simple v-model.
 ::
 
 ::CodeBlock
@@ -94,59 +63,24 @@ Example of Child that alters data consumed in both parent and grandchild
 ::
 
 ::CodeDescription
-This component, 'FilterPanel.vue', is the child of a component, called 'Recipes.vue', and the parent of 'FilterAuthor.vue'.
-It passes the data through to the grandchild and parent but also alters the data in the middle while still being very simplistic. (There were more filter components that I've removed to make this example clearer.)
-FilterAuthor is the grandchild of 'Recipes.vue' that calls an api on change of the selectedAuthor value.
-::
-
-::CodeDescription
-clearFilters clears the values of the variable consumed in both the grandchild input components and the parent container.
-The grandchild can also set the value but still only needs to define a v-model.
-There's no need to add functions to handle these values.
-::
-
-::Paragraph
-This pattern carried across a large application in React would require increased complexity to carry out the same behavior. 
+In this example, 'FilterPanel.vue' serves as the child of 'Recipes.vue' and the parent of 'FilterAuthor.vue'.
+It efficiently manages data flow between its parent and grandchild components without the added bloat of handler functions.
 ::
 
 ::ContentH2
-React passes values and listens for events in the same way the Vue would if v-model didn't exist
-::
-
-::CodeBlock
-```jsx
-import { useState } from 'react';
-
-function Input({ label }) {
-    const [text, setText] = useState('');
-
-    function handleChange(e) {
-        setText(e.target.value);
-    }
-
-    return (
-        <label>
-            {label}
-            {' '}
-            <input
-                value={text}
-                onChange={handleChange}
-            />
-        </label>
-    );
-}
-```
-::
-
-::CodeDescription
-In comparison, React has the added handler from the handleChange function on change, and passes the text to value.
-In the scenario of the Parent / Child / Grandchild, those functions would also have to be passed with the value.
+Comparing React
 ::
 
 ::Paragraph
-I believe this is just one area where Vue is better than React and there are others that I will cover in future blog posts.
-Personally, I would choose Vue over React when starting a new application or re-developing a poor quality React application.
-The benefits of v-model, in my opinion, wouldn't be enough to justify rewriting a high quality React application but may be worth considering in some scenarios.
+In React, achieving similar functionality would require more code, with explicit event handling and state management at each level of the component hierarchy.
+::
+
+::ContentH2
+Conclusion
+::
+
+::Paragraph
+While both Vue and React have their merits, Vue's simplicity and built-in features like v-model make it an appealing choice for new projects or when refactoring existing ones.
 ::
 
 ::Paragraph
