@@ -14,6 +14,7 @@
         <option value="culture">Culture</option>
         <option value="architecture">Architecture</option>
       </CommonSelect>
+      <NuxtIcon name="sort" class="transition-all ease-in-out duration-500 text-2xl" :class="[isDescendingDateOrder ? 'rotate-x-0' : 'rotate-x-180']" @click="toggleSortOrder" />
     </div>
     </div>
     <ContentList :query="query" v-slot="{ list }">
@@ -40,6 +41,23 @@
 
 <script setup>
 const selectedOption = ref(undefined)
-const query = ref({ path: '/blog', sort: [{ date: -1 }], where: [{ type: selectedOption }]})
+let sortDateBy = ref(-1)
+const query = ref({ path: '/blog', sort: [{ date: sortDateBy }], where: [{ type: selectedOption }]})
+const isDescendingDateOrder = computed(() => {
+  return sortDateBy.value === -1
+})
+function toggleSortOrder() {
+  sortDateBy.value = isDescendingDateOrder.value ? 1 : -1
+}
 
 </script>
+
+<style scoped>
+.rotate-x-180 {
+  transform: rotateX(180deg) !important;
+}
+
+.rotate-x-0 {
+  transform: rotateX(0) !important;
+}
+</style>
