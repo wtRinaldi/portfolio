@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col xl:flex-row justify-around gap-6 w-full">
-    <SummaryCard icon="user_attributes" label="Areas of expertise">
+    <SummaryCard icon="mdi:account-tie" label="Areas of expertise">
       <ul>
         <li>Vue / Nuxt / Tailwind</li>
         <li>Front End Architecture</li>
@@ -10,7 +10,7 @@
       </ul>
     </SummaryCard >
 
-    <SummaryCard icon="factory" label="Industry Experience">
+    <SummaryCard icon="mdi:office-building" label="Industry Experience">
       <ul>
         <li>Financial Tech</li>
         <li>Human Resources</li>
@@ -20,7 +20,7 @@
       </ul>
     </SummaryCard>
 
-    <SummaryCard icon="mindfulness" label="Dev Philosophies">
+    <SummaryCard icon="mdi:brain" label="Dev Philosophies">
       <ul>
         <li>Explicit & Simple Code</li>
         <li>Mobile First Development</li>

@@ -1,5 +1,5 @@
 <template>
-  <NuxtIcon :name class="flex justify-center items-center h-10 w-10 text-2xl bg-secondary-light rounded-full text-white" />
+  <Icon :name class="flex justify-center items-center p-2 h-10 w-10 bg-secondary-light rounded-full text-white" />
 </template>
 <script setup>
 defineProps({

@@ -34,7 +34,7 @@
       <div class="flex justify-between lg:hidden">
         <NuxtLink to="/" class="font-bold" @click="closeMenu">WR</NuxtLink>
         <button @click="toggleMenu" aria-label="navigation menu">
-          <NuxtIcon name="hamburger" class="text-xl" />
+          <Icon name="mdi:menu" class="text-2xl" />
         </button>
       </div>
     </nav>
