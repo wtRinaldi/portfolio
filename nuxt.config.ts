@@ -46,27 +46,28 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     currencyKey: process.env.CURRENCY_API_KEY,
-    imageKey: process.env.UNSPLASH_API_KEY
+    imageKey: process.env.UNSPLASH_API_KEY,
   },
 
   modules: ['@nuxt/image', 'nuxt-icon', '@vite-pwa/nuxt', '@nuxt/content', '@nuxtjs/sitemap'],
+
   content: {
+    documentDriven: true,
     highlight: {
       theme: 'github-dark'
     }
   },
+
+  routeRules: {
+    '/products/**': { sitemap: false },
+    '/ui-elements': { sitemap: false }
+  },
+
   site: {
     url: 'https://williamrinaldi.com',
   },
+
   pwa: {
-    // workbox: {
-    //   navigateFallback: '/',
-    //
-    // },
-    // devOptions: {
-    //   enabled: false,
-    //   type: 'module'
-    // },
     manifest: {
       name: 'William Rinaldi portfolio',
       short_name: 'WRinaldi',

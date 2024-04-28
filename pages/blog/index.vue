@@ -17,8 +17,8 @@
           </CommonSelect>
         </div>
 
-        <Icon v-show="isDescendingDateOrder" class="text-3xl text-primary-light" name="mdi:sort-calendar-ascending" @click="toggleSortOrder" />
-        <Icon v-show="!isDescendingDateOrder" class="text-3xl text-primary-light" name="mdi:sort-calendar-descending" @click="toggleSortOrder" />
+        <Icon v-show="isDescendingDateOrder" class="text-3xl text-primary-light" name="mdi:sort-calendar-ascending" @click="toggleSortOrder" tabindex="0" />
+        <Icon v-show="!isDescendingDateOrder" class="text-3xl text-primary-light" name="mdi:sort-calendar-descending" @click="toggleSortOrder" tabindex="0" />
       </div>
       <ContentList :query="query" v-slot="{ list }">
         <div v-for="article in list" :key="article._path" class="card selectable-card max-w-3xl p-5 mb-6">

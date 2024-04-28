@@ -41,7 +41,7 @@ Example of Data Flow in Vue Components
 
 ::Paragraph
 Consider a scenario where a child component updates data consumed by both its parent and grandchild.
-In fact, all level of this form updated the state with just a simple v-model.
+In fact, all levels of this form consumed and updated the state with just a simple v-model.
 ::
 
 ::CodeBlock
