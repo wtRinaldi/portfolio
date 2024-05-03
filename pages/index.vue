@@ -25,9 +25,9 @@
         <div class="flex flex-col lg:flex-row shadow rounded-3xl">
           <div class="flex justify-center items-center min-h-96 bg-primary-light text-white p-8 rounded-3xl w-full">
             <p class="font-light max-w-xl text-lg md:text-xl xl:text-2xl text-center leading-relaxed !lg:leading-[36px]">
-              Experienced front-end developer specializing in crafting immersive user experiences.
-              With seven years of hands-on experience, I excel in sophisticated data-heavy applications, and thrive on translating complex designs into clean code.
-              Proficient in Vue/Nuxt & React.
+              Seasoned front-end developer with a focus on creating immersive user interactions.
+              With seven years of hands-on experience, I specialize in developing sophisticated, data-driven applications, and excel in translating intricate designs into engaging and high-performing user experiences.
+              Proficient in Vue/Nuxt and React.
             </p>
           </div>
         </div>

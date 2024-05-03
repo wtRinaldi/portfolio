@@ -41,9 +41,7 @@ CastleBranch - Front End Developer II - 2018-2021
 ::
 
 ::Paragraph
-During my time here, I performed a diverse range of tasks, such as mentoring and providing expert guidance to a team of developers, facilitating the creation of new applications and features using Vue.js.
-
-Additionally, I assessed the feasibility of UX designs, offering insights and recommendations to enhance user experience and streamline development.
+During my time here, I performed a diverse range of tasks, such as mentoring and providing expert guidance to a team of developers, facilitating the creation of new applications and features using Vue.js. Additionally, I assessed the feasibility of UX designs, offering insights and recommendations to enhance user experience and streamline development.
 ::
 
 ::ContentH2
