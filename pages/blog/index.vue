@@ -14,6 +14,7 @@
             <option value="soft skills">Soft Skills</option>
             <option value="culture">Culture</option>
             <option value="frameworks">Frameworks</option>
+            <option value="life">Life</option>
           </CommonSelect>
         </div>
 
@@ -60,6 +61,7 @@ function getIconName(type) {
     case 'code': return 'mdi:code-tags'
     case 'culture': return 'mdi:crowd'
     case 'soft skills': return 'material-symbols:cognition-outline'
+    case 'life': return 'material-symbols:sentiment-satisfied-outline-rounded'
   }
 }
 
