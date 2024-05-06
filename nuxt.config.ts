@@ -58,11 +58,6 @@ export default defineNuxtConfig({
     }
   },
 
-  routeRules: {
-    '/products/**': { sitemap: false },
-    '/ui-elements': { sitemap: false }
-  },
-
   site: {
     url: 'https://williamrinaldi.com',
   },

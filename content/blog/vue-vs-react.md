@@ -1,6 +1,6 @@
 ---
 date: '4.19.2024'
-description: 'One reason to consider Vue over React'
+description: 'Considering Vue over React'
 type: 'frameworks'
 
 ---
