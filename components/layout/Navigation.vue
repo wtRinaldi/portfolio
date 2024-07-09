@@ -60,11 +60,11 @@ function closeMenu() {
 }
 
 .mobile-navigation-option {
-  @apply flex items-center h-16 hover:bg-quinary rounded-full pl-6 hover:transition-colors duration-500 ease-in-out
+  @apply flex items-center h-16 hover:bg-secondary-light rounded-full pl-6 hover:transition-colors duration-500 ease-in-out
 }
 
 .desktop-navigation-option {
-  @apply hover:bg-quinary rounded-full px-3 py-2 hover:transition-colors duration-500 ease-in-out
+  @apply hover:bg-secondary-light rounded-full px-3 py-2 hover:transition-colors duration-500 ease-in-out
 }
 
 </style>

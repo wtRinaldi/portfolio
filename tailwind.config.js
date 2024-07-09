@@ -30,8 +30,7 @@ export default {
           light: '#9DB4C0',
           dark: ''
         },
-        quaternary: '#C2DFE3',
-        quinary: '#E0FBFC',
+        background: '#fcf6f8',
         active: '#5C6B73',
         link: '#2563EB',
         success: '',
@@ -44,3 +43,4 @@ export default {
   plugins: [],
 }
 
+// #fcf6f8

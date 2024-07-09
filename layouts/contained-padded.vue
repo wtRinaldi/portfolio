@@ -10,5 +10,5 @@
   min-height: calc(100vh - 3.6rem)
 }
 </style>
-<script setup lang="ts">
+<script setup>
 </script>
