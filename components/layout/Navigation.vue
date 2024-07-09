@@ -18,8 +18,8 @@
   <header class="w-full shadow-sm bg-white fixed z-50 border-b-2">
     <nav class="container mx-auto p-4 w-full">
       <div class="hidden lg:flex justify-between">
-        <NuxtLink to="/" class="font-bold" @click="closeMenu">William Rinaldi</NuxtLink>
-        <ul class="flex gap-4 list-none">
+        <NuxtLink to="/" class="font-bold desktop-navigation-option" @click="closeMenu">William Rinaldi</NuxtLink>
+        <ul class="flex gap-4 list-none items-center">
           <li>
             <NuxtLink to="/about" @click="closeMenu" class="desktop-navigation-option">About</NuxtLink>
           </li>
@@ -32,7 +32,7 @@
         </ul>
       </div>
       <div class="flex justify-between lg:hidden">
-        <NuxtLink to="/" class="font-bold" @click="closeMenu">WR</NuxtLink>
+        <NuxtLink to="/" class="font-bold desktop-navigation-option" @click="closeMenu">WR</NuxtLink>
         <button @click="toggleMenu" aria-label="navigation menu">
           <Icon name="mdi:menu" class="text-2xl" />
         </button>
@@ -56,15 +56,15 @@ function closeMenu() {
 
 <style scoped>
 .router-link-exact-active {
-  @apply text-active
+  @apply bg-secondary-light text-white
 }
 
 .mobile-navigation-option {
-  @apply flex items-center h-16 hover:bg-secondary-light rounded-full pl-6 hover:transition-colors duration-500 ease-in-out
+  @apply flex items-center h-16 hover:bg-ternary-light rounded-full pl-6 hover:transition-colors duration-500 ease-in-out
 }
 
 .desktop-navigation-option {
-  @apply hover:bg-secondary-light rounded-full px-3 py-2 hover:transition-colors duration-500 ease-in-out
+  @apply hover:bg-ternary-light rounded-full px-3 py-2 hover:transition-colors duration-500 ease-in-out
 }
 
 </style>

@@ -37,4 +37,7 @@ body {
     ul, ol {
         list-style: revert;
     }
+    .page-header {
+        @apply pt-8 pb-6 text-4xl md:text-6xl font-black md:pt-16 lg:pb-10
+    }
 }

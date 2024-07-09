@@ -4,10 +4,10 @@
       <DotLottieVue style="height: 300px; width: 300px" autoplay loop speed="0.9" src="/animation.lottie"/>
     </div>
 
-    <div class="flex flex-col justify-center items-center xl:pl-0 order-1 md:order-2 max-w-xl">
+    <div class="flex flex-col justify-center items-center xl:pl-0 order-1 md:order-2">
       <h1 class="font-bold text-6xl mb-8">Hi!</h1>
       <h2 class="font-medium text-2xl mb-5">I'm William Rinaldi</h2>
-      <p class="mb-24 md:mb-0 text-center">An experienced front-end developer, proficient in HTML, CSS, JavaScript, React, and Vue. Strong collaborator focused on creating responsive, user-friendly, and performant web applications.</p>
+      <p class="text-center max-w-md">An experienced front-end developer, proficient in HTML, CSS, JavaScript, Tailwind, React, and Vue. Strong collaborator focused on creating responsive, user-friendly, and performant web applications.</p>
     </div>
 
 <!--        <NuxtImg src="/mountains_1920x1281.jpg"-->

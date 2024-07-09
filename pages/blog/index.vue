@@ -2,7 +2,7 @@
   <NuxtLayout name="contained-padded">
     <div class="max-w-3xl mx-auto">
       <div class="mb-8">
-        <h1 class="text-4xl md:text-7xl font-black py-6 lg:py-11">musings of a fe dev</h1>
+        <h1 class="page-header">musings of a fe dev</h1>
         <h2 class="text-secondary-light font-semibold">Topics in front end code, philosophies, soft skills, company culture and life.</h2>
       </div>
       <div class="pt-6 flex justify-end items-center mb-3 mr-2">
