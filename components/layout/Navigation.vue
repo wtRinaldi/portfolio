@@ -17,9 +17,12 @@
   </header>
   <header class="w-full shadow-sm bg-white fixed z-50 border-b-2">
     <nav class="container mx-auto p-4 w-full">
-      <div class="hidden lg:flex justify-between">
-        <NuxtLink to="/" class="font-bold desktop-navigation-option" @click="closeMenu">William Rinaldi</NuxtLink>
-        <ul class="flex gap-4 list-none items-center">
+      <div class="hidden lg:flex">
+
+        <ul class="flex gap-4 list-none items-center w-full">
+          <li class="mr-auto">
+            <NuxtLink to="/" class="font-bold desktop-navigation-option" @click="closeMenu">William Rinaldi</NuxtLink>
+          </li>
           <li>
             <NuxtLink to="/about" @click="closeMenu" class="desktop-navigation-option">About</NuxtLink>
           </li>
@@ -28,6 +31,9 @@
           </li>
           <li>
             <NuxtLink to="/blog" @click="closeMenu" class="desktop-navigation-option">Blog</NuxtLink>
+          </li>
+          <li @click="toggleDark">
+              <Vue3Lottie ref="lightDarkToggle" style="height: 50px; width: 100px" :auto-play="false" :loop="false" :speed="1.5" :animation-data="nightToggle" />
           </li>
         </ul>
       </div>
@@ -42,7 +48,14 @@
 
 </template>
 <script setup>
+import { Vue3Lottie } from "vue3-lottie";
+import nightToggle from 'public/nightToggle.json'
+
+const lightDarkToggle = ref(null)
+const isDarkMode = ref(false)
 const isShowMenu = ref(false)
+
+
 
 function toggleMenu() {
   isShowMenu.value = !isShowMenu.value
@@ -51,6 +64,17 @@ function toggleMenu() {
 function closeMenu() {
   isShowMenu.value = false
 }
+
+function toggleDark() {
+  isDarkMode.value = !isDarkMode.value
+
+  if (isDarkMode.value) {
+    lightDarkToggle.value.playSegments([0,240], true)
+  } else {
+    lightDarkToggle.value.playSegments([240,481], true)
+  }
+}
+
 
 </script>
 
@@ -64,7 +88,7 @@ function closeMenu() {
 }
 
 .desktop-navigation-option {
-  @apply hover:bg-ternary-light rounded-full px-3 py-2 hover:transition-colors duration-500 ease-in-out
+  @apply hover:bg-ternary-light rounded-full px-3 py-2 hover:transition-colors duration-500 ease-in-out flex items-center
 }
 
 </style>
