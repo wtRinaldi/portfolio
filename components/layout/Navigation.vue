@@ -32,8 +32,8 @@
           <li>
             <NuxtLink to="/blog" @click="closeMenu" class="desktop-navigation-option">Blog</NuxtLink>
           </li>
-          <li @click="toggleDark">
-              <Vue3Lottie ref="lightDarkToggle" style="height: 50px; width: 100px" :auto-play="false" :loop="false" :speed="1.5" :animation-data="nightToggle" />
+          <li>
+              <CommonDarkModeToggle />
           </li>
         </ul>
       </div>
@@ -48,14 +48,8 @@
 
 </template>
 <script setup>
-import { Vue3Lottie } from "vue3-lottie";
-import nightToggle from 'public/nightToggle.json'
 
-const lightDarkToggle = ref(null)
-const isDarkMode = ref(false)
 const isShowMenu = ref(false)
-
-
 
 function toggleMenu() {
   isShowMenu.value = !isShowMenu.value
@@ -64,17 +58,6 @@ function toggleMenu() {
 function closeMenu() {
   isShowMenu.value = false
 }
-
-function toggleDark() {
-  isDarkMode.value = !isDarkMode.value
-
-  if (isDarkMode.value) {
-    lightDarkToggle.value.playSegments([0,240], true)
-  } else {
-    lightDarkToggle.value.playSegments([240,481], true)
-  }
-}
-
 
 </script>
 
