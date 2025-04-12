@@ -4,6 +4,14 @@ description: 'William Rinaldi experience page'
 ---
 
 ::ContentH2
+Zimmer Biomet via Pinnicle Partners contract - 2024 - present
+::
+
+::Paragraph
+As a Senior Front-End Developer at Zimmer Biomet, I contribute to the development of ZBEdge® Analytics, a cutting-edge data platform that delivers intra-operative, mobility, and outcome insights directly to surgeons. I work on developing new features and sophisticated data tables, utilizing Vue 3, Pinia, TypeScript, and Plotly. My efforts focus on integrating and presenting data from Persona IQ®, ensuring an intuitive, data-driven experience for medical professionals.
+::
+
+::ContentH2
 Semsee - Front End Developer II - 2022-2024
 ::
 
@@ -45,7 +53,7 @@ During my time here, I performed a diverse range of tasks, such as mentoring and
 ::
 
 ::ContentH2
-LiquidHub - Front End Developer - 2016-2017
+Vanguard via LiquidHub contract - Front End Developer - 2016-2017
 ::
 
 ::Paragraph
