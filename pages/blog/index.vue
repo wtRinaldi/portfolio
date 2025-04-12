@@ -14,7 +14,6 @@
             <option value="soft skills">Soft Skills</option>
             <option value="culture">Culture</option>
             <option value="frameworks">Frameworks</option>
-            <option value="life">Life</option>
           </CommonSelect>
         </div>
 
