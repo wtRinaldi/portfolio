@@ -4,11 +4,11 @@ description: 'William Rinaldi about me page'
 ---
       
 ::Paragraph
-Hey there! I'm William Rinaldi, a passionate front-end developer with a love for Vue.js and Nuxt.js.
+Hey there! I'm William, a passionate front-end developer with a love for Vue.js (I'm also capable in React & Angular).
 ::
 
 ::Paragraph
-With my degree in Information Science and a deep understanding of data, I leverage my expertise to design and develop user interfaces that seamlessly integrate complex information, resulting in powerful and intuitive user experiences.
+With my degree in Information Science and a deep understanding of data, I leverage my expertise to design and develop user interfaces that seamlessly integrate complex information, resulting in powerful and intuitive user experiences. 
 ::
 
 ::ContentH2
@@ -58,12 +58,23 @@ Whether it's mastering new features in Vue.js, exploring innovative design patte
 ::
 
 ::ContentH2
-Let's Collaborate
+Mentoring
 ::
 
 ::Paragraph
-If you're looking for a front-end developer who is passionate about creating highly functional web experiences using Vue.js and Nuxt.js, I'd love to hear from you.
-Let's collaborate and bring your ideas to life in the digital world!
+As a former Udacity mentor, I provided positive guidance and insightful feedback while reviewing over 2,100 projects, and was recognized by Udacity as a top performer!
+I’m passionate about helping others understand the core concepts of front-end development and the principles of clean code.
+I take great pride in being a dependable team member — someone both junior and senior developers can rely on.
+::
+
+::ContentH2
+Let's Connect
+::
+
+::Paragraph
+If you're looking for a front-end developer who is passionate about creating highly functional web experiences using Vue.js / Nuxt.js, React, or Angular, 
+I'm currently looking for a new role as a Front End or Senior Front End Developer due to budgetary contraints.
+I would love to contribute to your company's success!
 ::
 
 ::ContentH2
@@ -72,5 +83,5 @@ Connect
 
 ::Paragraph
 Feel free to email me at williamtrinaldi@gmail.com or message me on <a href="https://www.linkedin.com/in/wtrinaldi/" class="font-bold text-[#0a66c2]">LinkedIn</a> to discuss your project ideas or just to geek out about Vue.js and Nuxt.js. 
-I'm always excited to connect with fellow developers and enthusiasts who share my passion for front-end development!
+I'm always excited to connect with others who share my passion for quality front-end development!
 ::
