@@ -20,15 +20,12 @@ export default {
       colors: {
         primary: {
           light: '#253237',
-          dark: ''
         },
         secondary: {
           light: '#5C6B73',
-          dark: '',
         },
         ternary: {
           light: '#9DB4C0',
-          dark: ''
         },
         background: '#fcf6f8',
         active: '#5C6B73',

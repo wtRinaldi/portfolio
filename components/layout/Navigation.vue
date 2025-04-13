@@ -18,10 +18,9 @@
   <header class="w-full shadow-sm bg-white fixed z-50 border-b-2">
     <nav class="container mx-auto p-4 w-full">
       <div class="hidden lg:flex">
-
         <ul class="flex gap-4 list-none items-center w-full">
           <li class="mr-auto">
-            <NuxtLink to="/" class="font-bold desktop-navigation-option" @click="closeMenu">William Rinaldi</NuxtLink>
+            <NuxtLink to="/" class="desktop-navigation-option" @click="closeMenu">William Rinaldi</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/about" @click="closeMenu" class="desktop-navigation-option">About</NuxtLink>
@@ -31,9 +30,6 @@
           </li>
           <li>
             <NuxtLink to="/blog" @click="closeMenu" class="desktop-navigation-option">Blog</NuxtLink>
-          </li>
-          <li>
-              <CommonDarkModeToggle />
           </li>
         </ul>
       </div>
@@ -63,15 +59,15 @@ function closeMenu() {
 
 <style scoped>
 .router-link-exact-active {
-  @apply bg-secondary-light text-white
+  @apply bg-black text-white
 }
 
 .mobile-navigation-option {
-  @apply flex items-center h-16 hover:bg-ternary-light rounded-full pl-6 hover:transition-colors duration-500 ease-in-out
+  @apply flex items-center h-16 rounded-full pl-6 hover:transition-colors duration-1000 ease-in-out
 }
 
 .desktop-navigation-option {
-  @apply hover:bg-ternary-light rounded-full px-3 py-2 hover:transition-colors duration-500 ease-in-out flex items-center
+  @apply hover:bg-gray-400 rounded-full px-3 py-2 hover:transition-colors hover:text-white duration-500 ease-in-out flex items-center
 }
 
 </style>
