@@ -5,6 +5,9 @@
 body {
     @apply bg-background;
     font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @layer components {
@@ -39,6 +42,6 @@ body {
         list-style: revert;
     }
     .page-header {
-        @apply pt-8 pb-6 text-4xl md:text-6xl font-black md:pt-16 lg:pb-10
+        @apply pb-6 text-4xl md:text-6xl font-black md:pt-16 lg:pb-10
     }
 }
