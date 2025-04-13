@@ -44,4 +44,11 @@ body {
     .page-header {
         @apply pb-6 lg:pb-10 text-4xl md:text-6xl font-black 
     }
+    h1, h2, p {
+        line-height: 1.5;
+        letter-spacing: 0.01em;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-shadow: none;
+      }
 }
