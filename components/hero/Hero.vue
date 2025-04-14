@@ -9,7 +9,7 @@
       <NuxtImg src="/gdp_hero.svg"
           class="rounded-2xl w-full"
           alt="logo"
-          loading="lazy"
+          loading="eager"
           height="500" />
     </div>
   </section>
