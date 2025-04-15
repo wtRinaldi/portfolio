@@ -2,23 +2,32 @@
     <section>
         <div class="flex flex-col">
             <h2 class="text-2xl font-medium text-center mb-6">Technical Proficiencies</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 self-center">
-                <CommonCard v-for="proficiency in proficiencies">
+            <div class="grid grid-cols-[repeat(auto-fit,_minmax(300px,_300px))] gap-4 place-content-center">
+                <CommonCard v-for="proficiency in proficiencies" class="relative">
                     <div class="flex flex-col">
        
-                            <NuxtImg 
-                                :src="proficiency.icon"
-                                style="height: 75px; width: 75px;"
-                                class="mt-3 mb-4 self-center"
-                                :alt="`${proficiency.name} logo`"
-                                loading="lazy" />
-                                <h3 class="uppercase font-bold">{{ proficiency.name }}</h3>
+                        <NuxtImg 
+                            :src="proficiency.icon"
+                            style="height: 75px; width: 75px;"
+                            class="mt-3 mb-4 self-center"
+                            :alt="`${proficiency.name} logo`"
+                            loading="lazy" />
                         
-                        <div class="flex justify-between">
-                            
-                            <span>YRS EXP {{ proficiency.experience }}</span>
-                        </div>
+                        <h3 class="uppercase font-bold mb-2">{{ proficiency.name }}</h3>
+                        
+
                     </div>
+                    <div class="text-start font-thin">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elos non ea doloremque.</p>
+                        
+                    </div>
+                    <span class="absolute bottom-0 right-0 text-sm mr-3 mb-1 opacity-70 font-semibold">
+                        {{ proficiency.experience }} yrs 
+                        <Icon name="material-symbols:work-history-outline" class="text-xl mb-1 ml-1" />
+                    </span>
+                    
+           
+
 
                 </CommonCard>
             </div>

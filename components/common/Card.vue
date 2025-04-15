@@ -1,5 +1,5 @@
 <template>
-    <div class="card product-card text-center selectable-card">
+    <div class="card text-center selectable-card max-w-[300px] h-[300px]">
         <slot />
     </div>
   </template>
@@ -9,10 +9,6 @@
   </script>
   
   <style scoped>
-  .product-card {
-    height: 300px;
-    width: 300px;
-  }
 
   .selectable-card {
         @apply shadow hover:shadow-lg transition-shadow ease-in-out duration-500

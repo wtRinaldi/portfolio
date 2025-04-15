@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="contained-padded">
-    <Hero class="mb-12"/>
+    <Hero class="mb-20"/>
     <TechnicalProficiencies />
   </NuxtLayout>
 </template>
