@@ -76,6 +76,37 @@ Comparing React
 In React, achieving similar functionality would require more code, with explicit event handling and state management at each level of the component hierarchy.
 ::
 
+::CodeBlock
+```jsx
+// AuthorFilterComponent.jsx
+function AuthorFilterComponent() {
+  const [selectedAuthorEmail, setSelectedAuthorEmail] = useState('');
+
+  const clearFilters = () => {
+    setSelectedAuthorEmail('');
+  };
+
+  return (
+    <div>
+      <FilterAuthor 
+        selectedAuthorEmail={selectedAuthorEmail} 
+        setSelectedAuthorEmail={setSelectedAuthorEmail}
+        className="mb-2" 
+      />
+      <button onClick={clearFilters}>Clear Filters</button>
+    </div>
+  );
+}
+```
+::
+
+::CodeDescription
+Notice instead of a single v-model passing both the event and value, both must be explicitly passed.
+I could do the very same thing in Vue by binding a \:value and @input.
+v-model is simply shorthand that combines these attributes to simplify code.
+Thus, React and Vue are identical in this pattern.
+::
+
 ::ContentH2
 Conclusion
 ::
