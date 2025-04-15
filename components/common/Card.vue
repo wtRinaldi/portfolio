@@ -1,5 +1,5 @@
 <template>
-    <div class="card text-center selectable-card max-w-[300px] h-[300px]">
+    <div class="card text-center selectable-card">
         <slot />
     </div>
   </template>

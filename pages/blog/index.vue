@@ -21,23 +21,7 @@
         <Icon v-show="!isDescendingDateOrder" class="text-3xl text-primary-light" name="mdi:sort-calendar-descending" @click="toggleSortOrder" tabindex="0" />
       </div>
       <ContentList :query="query" v-slot="{ list }">
-        <div v-for="article in list" :key="article._path" class="card selectable-card max-w-3xl p-5 mb-6">
-          <NuxtLink :to="article._path">
-            <div class="flex justify-between min-h-20">
-              <div class="flex flex-col justify-between pr-12">
-                <h1 class="font-bold text-lg lg:text-xl mb-2 text-primary-light">{{ article.title }}</h1>
-                <p class="text-secondary-light">{{ article.description }}</p>
-              </div>
-              <div class="flex flex-col justify-between mt-1 items-end">
-                <div class="flex text-white rounded-full text-sm font-semibold bg-secondary-light px-2 py-1">
-                  <Icon :name="getIconName(article.type)" class="text-xl mr-1.5" />
-                  <span class="text-nowrap">{{ article.type }}</span>
-                </div>
-                <p class="text-sm font-semibold text-gray-500 mr-1">{{ article.date }}</p>
-              </div>
-            </div>
-          </NuxtLink>
-        </div>
+        <BlogCards :cards="list" />
       </ContentList>
     </div>
   </NuxtLayout>

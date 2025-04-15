@@ -2,6 +2,7 @@
 date: '4.10.2024'
 description: 'Get more done by leveraging  your team'
 type: 'soft skills'
+img: '/teamwork.jpg'
 
 ---
 

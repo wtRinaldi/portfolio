@@ -2,6 +2,7 @@
 date: '4.03.2024'
 description: 'What makes a culture positive?'
 type: 'culture'
+img: '/positive.jpg'
 
 ---
 

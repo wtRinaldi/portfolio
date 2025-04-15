@@ -2,6 +2,7 @@
 date: '3.20.2024'
 description: 'Simple animated menu dropdown with Vue & Tailwind CSS'
 type: 'code'
+img: '/menu.svg'
 ---
 
 ::ContentH1

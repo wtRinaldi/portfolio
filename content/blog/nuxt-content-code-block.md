@@ -2,6 +2,7 @@
 date: '3.29.2024'
 description: 'How to create a Nuxt Content code block'
 type: 'code'
+img: '/code.jpg'
 ---
 
 ::ContentH1

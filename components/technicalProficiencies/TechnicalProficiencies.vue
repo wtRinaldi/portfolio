@@ -3,7 +3,7 @@
         <div class="flex flex-col">
             <h2 class="text-2xl font-medium text-center mb-6">Technical Proficiencies</h2>
             <div class="grid grid-cols-[repeat(auto-fit,_minmax(300px,_300px))] gap-4 place-content-center">
-                <CommonCard v-for="proficiency in proficiencies" class="relative">
+                <CommonCard v-for="proficiency in proficiencies" class="relative max-w-[300px] h-[300px]">
                     <div class="flex flex-col">
                         <NuxtImg 
                             :src="proficiency.icon"
