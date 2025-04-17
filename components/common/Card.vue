@@ -1,5 +1,5 @@
 <template>
-    <div class="card text-center selectable-card">
+    <div class="card selectable-card">
         <slot />
     </div>
   </template>
@@ -9,8 +9,10 @@
   </script>
   
   <style scoped>
-
-  .selectable-card {
+    .card {
+        @apply rounded-md bg-white shadow
+    }
+    .selectable-card {
         @apply shadow hover:shadow-lg transition-shadow ease-in-out duration-500
     }
   

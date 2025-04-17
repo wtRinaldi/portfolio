@@ -3,7 +3,7 @@
         <div class="flex flex-col">
             <h2 class="text-2xl font-medium text-center mb-6">Technical Proficiencies</h2>
             <div class="grid grid-cols-[repeat(auto-fit,_minmax(300px,_300px))] gap-4 place-content-center">
-                <CommonCard v-for="proficiency in proficiencies" class="relative max-w-[300px] h-[300px]">
+                <CommonCard v-for="proficiency in proficiencies" class="relative max-w-[300px] h-[300px] p-3">
                     <div class="flex flex-col">
                         <NuxtImg 
                             :src="proficiency.icon"
@@ -12,7 +12,7 @@
                             :alt="`${proficiency.name} logo`"
                             loading="lazy" />
                         
-                        <h3 class="uppercase font-bold mb-2">{{ proficiency.name }}</h3>
+                        <h3 class="uppercase font-bold mb-2 text-center">{{ proficiency.name }}</h3>
                         
 
                     </div>

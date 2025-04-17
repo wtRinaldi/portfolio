@@ -2,7 +2,7 @@
 date: '3.27.2024'
 description: 'How to style Nuxt Content markdown files'
 type: 'code'
-img: '/nuxt.svg'
+img: '/nuxt_content.png'
 ---
 
 ::ContentH1
