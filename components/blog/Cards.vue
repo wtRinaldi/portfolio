@@ -6,10 +6,11 @@
             <h1 class="font-bold text-lg lg:text-xl mb-2 text-primary-light">{{ article.title }}</h1>
             <p class="text-secondary-light">{{ article.description }}</p>
           </div>
-          <div class="image-container flex-1 rounded-r-md">
+          <div class="image-container flex-1 rounded-r-md max-w-[200px]">
             <NuxtImg 
               :src="article.img"
-              class="full-cover"
+              style="height: 150px; width: 100%;"
+              class=""
               format="webp"
               alt="logo"
               loading="eager" />
@@ -27,20 +28,3 @@
   },
 })
   </script>
-  
-  <style scoped>
-  .image-container {
-  width: 200px;
-  height: 150px; /* or any height you want */
-  position: relative;
-  overflow: hidden;
-}
-
-.full-cover {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;    /* Or try 'fill' if you want full stretch */
-  object-position: center;
-}
-  
-  </style>

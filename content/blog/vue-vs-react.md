@@ -2,7 +2,7 @@
 date: '4.19.2024'
 description: 'Considering Vue over React'
 type: 'frameworks'
-img: '/vuevsreact.jpg'
+img: '/vue_vs_react.svg'
 
 ---
 

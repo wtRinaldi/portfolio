@@ -34,6 +34,18 @@
 
 const proficiencies = [
     {
+        name: 'JavaScript',
+        icon: '/javascript.svg',
+        experience: '9',
+        summary: 'Applied advanced knowledge of JavaScript to build responsive, user-centric interfaces, utilizing modern ES6+.'
+    },
+    {
+        name: 'TypeScript',
+        icon: '/typescript.svg',
+        experience: '2',
+        summary: 'Used TypeScript to write robust, type-safe code for frontend applications in both Vue & React applications.'
+    },
+    {
         name: 'Vue',
         icon: '/vue.svg',
         experience: '6',
