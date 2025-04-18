@@ -1,5 +1,5 @@
 ---
-date: '4.19.2024'
+date: '4.17.2025'
 description: 'Considering Vue over React'
 type: 'frameworks'
 img: '/vue_vs_react.svg'
@@ -15,7 +15,7 @@ Just one of the reasons that I prefer Vue over React
 
 ::Paragraph
 Front-end developers often find themselves in the position of choosing technologies for their projects.
-If you're making this decision, consider these advantages of Vue over React when making your decision.
+If you're making this decision, consider this advantage that Vue offers.
 ::
 
 ::ContentH2
@@ -91,6 +91,7 @@ Comparing to React
 
 ::Paragraph
 In React, achieving similar functionality requires the function and value to be passed, with explicit event handling and state management at each level of the component hierarchy.
+It is possible, however, to recreate the `v-model` pattern in React using a hook. 
 ::
 
 ::CodeBlock
@@ -107,7 +108,6 @@ function ReactParent() {
       <ReactChild 
         data={data} 
         setData={setData}
-        className="mb-2" 
       />
     </div>
   );

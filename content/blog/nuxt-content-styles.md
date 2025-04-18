@@ -75,10 +75,11 @@ Now you're free to use scoped styles or Tailwind classes as you would expect in 
 So far, I've created headers, subheaders, title, paragraph, and code block components to create this blog.
 Styling your content becomes very easy after setting up some basic components.
 
-:::ContentLink{to="/blog/nuxt-content-code-block"}
-Read more about using the CodeBlock component here.
-:::
+::ContentLink{to="/blog/nuxt-content-code-block"}
+Nuxt Content Code Block
 ::
+::
+
 
 ::Paragraph
 I hope this provides some clarity on styling Nuxt Content.  Feel free to reach out to me with any questions on :LinkedinLink.
