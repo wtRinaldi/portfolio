@@ -7,6 +7,10 @@
 
 <script setup>
 
+definePageMeta({
+  documentDriven: false
+})
+
 useHead({
   title: 'William Rinaldi | Home',
   meta: [{

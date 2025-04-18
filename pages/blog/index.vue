@@ -14,10 +14,16 @@
 </template>
 
 <script setup>
+
+definePageMeta({
+  documentDriven: false
+})
 let sortDateBy = ref(-1)
 const query = ref({ path: '/blog', sort: [{ date: sortDateBy }]})
-const isDescendingDateOrder = computed(() => {
-  return sortDateBy.value === -1
-})
+
+// const query = ref({
+//   where: [{ _path: { $startsWith: '/blog/' } }],
+//   sort: [{ date: sortDateBy }]
+// })
 
 </script>
