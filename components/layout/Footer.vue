@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex justify-center bg-primary-light/90 text-white border-t border-white/10 backdrop-blur-md shadow-inner">
+  <footer class="flex justify-center bg-primary-light/90 text-white border-t border-white/10 shadow-inner">
     <div class="flex flex-col md:flex-row justify-center items-center gap-6 max-w-xl py-10 px-6 text-center">
       <StyledLink
         icon="mdi:linkedin"

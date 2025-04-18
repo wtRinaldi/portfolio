@@ -14,6 +14,19 @@
         </li>
       </ul>
     </nav>
+    <transition
+      enter-active-class="transition-opacity duration-500"
+      enter-from-class="opacity-0"
+      enter-to-class="opacity-100"
+      leave-active-class="transition-opacity duration-500"
+      leave-from-class="opacity-100"
+      leave-to-class="opacity-0">
+        <div
+          v-if="isShowMenu"
+          class="absolute w-full h-screen bg-black/60 z-10"
+          @click="toggleMenu"
+        ></div>
+    </transition>
   </header>
   <header class="w-full shadow-sm bg-white fixed z-50 border-b-2">
     <nav class="container mx-auto p-4 w-full">
@@ -40,8 +53,8 @@
         </button>
       </div>
     </nav>
+    
   </header>
-
 </template>
 <script setup>
 
