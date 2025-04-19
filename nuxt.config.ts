@@ -1,4 +1,11 @@
 export default defineNuxtConfig({
+  ssr: true,
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/'] // routes to prerender
+    }
+  },
   app: {
     head: {
       title: 'William Rinaldi - Senior Front End Developer',
@@ -69,6 +76,10 @@ export default defineNuxtConfig({
   },
 
   pwa: {
+    workbox: {
+      navigateFallback: '/',
+      runtimeCaching: [],
+    },
     manifest: {
       name: 'William Rinaldi portfolio',
       short_name: 'WRinaldi',
