@@ -7,7 +7,7 @@
                     <div class="flex flex-col">
                         <NuxtImg 
                             :src="proficiency.icon"
-                            style="height: 75px; width: 75px;"
+                            style="height: 75px; width: 75px; aspect-ratio: 1/1;"
                             height="75"
                             width="75"
                             class="mt-3 mb-3 self-center"
