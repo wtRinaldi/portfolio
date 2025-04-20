@@ -25,7 +25,7 @@ The variable 'isShowMenu' determines which translate class is applied, moving th
 ::
 
 ::ContentH2
-Vue template
+Menu HTML
 ::
 
 ::CodeBlock
@@ -54,7 +54,7 @@ Template for menu
 ::
 
 ::ContentH2
-Vue script
+Menu toggle functions and variable
 ::
 
 ::CodeBlock
@@ -75,12 +75,8 @@ function closeMenu() {
 Script for menu
 ::
 
-::CodeDescription
-Template for menu
-::
-
 ::ContentH2
-Vue script
+Underlay and animation HTML
 ::
 
 ::CodeBlock
@@ -102,7 +98,11 @@ Vue script
 ::
 
 ::CodeDescription
-Animated underlay to gray out screen and close menu
+Animated underlay to gray out screen and close menu on click off of menu dropdown
+::
+
+::ContentH2
+My complete Navigation.vue component
 ::
 
 ::CodeBlock
@@ -195,10 +195,6 @@ function closeMenu() {
 </style>
 
 ```
-::
-
-::CodeDescription
-Complete navigation component
 ::
 
 
