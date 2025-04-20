@@ -4,7 +4,7 @@ description: 'William Rinaldi experience page'
 ---
 
 ::ContentH2
-Zimmer Biomet via Pinnicle Partners contract - 2024 - present
+Zimmer Biomet via Pinnicle Partners contract - Senior Front End Developer - 2024-present
 ::
 
 ::Paragraph

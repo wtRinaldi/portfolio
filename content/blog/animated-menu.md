@@ -6,7 +6,7 @@ img: '/menu.svg'
 ---
 
 ::ContentH1
-Simple Animated Hamburger Menu with Tailwind
+Animated Hamburger Menu with Tailwind
 ::
 
 ::SubTitle
@@ -201,6 +201,3 @@ function closeMenu() {
 ::Paragraph
 That's it!  It's really easy.  Feel free to reach out to me with any questions on :LinkedinLink.
 ::
-
-
-
