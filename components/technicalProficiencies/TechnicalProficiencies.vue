@@ -89,6 +89,12 @@ const proficiencies = [
         summary: 'Experience building interactive interfaces with functional components, props, and hooks.'
     },
     {
+        name: 'Redux',
+        icon: '/redux.svg',
+        experience: '1.5',
+        summary: 'Used to for global state management in React application.'
+    },
+    {
         name: 'Angular',
         icon: '/angular.svg',
         experience: '1.5',
