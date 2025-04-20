@@ -92,7 +92,7 @@ const proficiencies = [
         name: 'Redux',
         icon: '/redux.svg',
         experience: '1.5',
-        summary: 'Used along side React app to manage global state management in React application.'
+        summary: 'Used to manage global state in React application. Similar pattern to Vue state management.'
     },
     {
         name: 'Angular',
