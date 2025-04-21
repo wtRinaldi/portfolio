@@ -3,12 +3,13 @@
     <Hero class="mb-20"/>
     <Suspense>
       <template #default>
-        <LazyTechnicalProficiencies />
+        <LazyTechnicalProficiencies class="mb-20" />
       </template>
       <template #fallback>
         <div class="text-center text-sm text-gray-500">Loading skills...</div>
       </template>
     </Suspense>
+    <LazyEndorsements />
   </NuxtLayout>
 </template>
 
