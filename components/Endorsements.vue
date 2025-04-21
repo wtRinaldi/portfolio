@@ -1,19 +1,20 @@
 <template>
-    <section class="flex justify-center">
-        <div class="flex flex-col max-w-lg">
-            <h2 class="text-2xl font-medium text-center mb-6">Endorsements</h2>
-            <div class="flex flex-col">
-                <div v-for="endorsement in endorsements" class="p-3">
-                    <div class="flex flex-col">
-                        <h3 class="uppercase font-bold mb-2 text-center">{{ endorsement.name }}</h3>
-                    </div>
-                    <div class="px-3 text-start font-light">
-                        <p>{{ endorsement.statement }}</p>
-                    </div>
-                </div>
-            </div>
+    <section class="bg-gray-100 py-12 px-4">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Endorsements</h2>
+  
+        <!-- Masonry-style column layout -->
+        <div class="columns-1 sm:columns-2 gap-6 space-y-6">
+          <div
+            v-for="endorsement in endorsements"
+            :key="endorsement.name"
+            class="break-inside-avoid bg-white shadow-sm rounded-xl p-6 border border-gray-200"
+          >
+            <p class="text-gray-700 italic mb-4">"{{ endorsement.statement }}"</p>
+            <div class="text-sm text-gray-600 font-medium text-right">– {{ endorsement.name }}</div>
+          </div>
         </div>
-
+      </div>
     </section>
   </template>
 <script setup>
