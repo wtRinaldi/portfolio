@@ -1,16 +1,59 @@
 <template>
-  <section class="flex flex-col lg:flex-row">
-    <div class="flex flex-col flex-[2] md:mr-4 mb-8 justify-center">
-      <h1 class="font-bold text-6xl mb-4 leading-[1.2]">WILLIAM RINALDI</h1>
-      <h2 class="font-medium text-2xl mb-8">Senior Frontend Developer</h2>
-      <p>An experienced front-end developer, proficient in HTML, CSS, JavaScript, Tailwind, React, and Vue. Strong collaborator focused on creating responsive, user-friendly, and performant web applications.</p>
+  <section class="flex flex-col lg:flex-row items-center justify-between gap-12 py-16 px-6 lg:px-20 bg-gradient-to-br from-white via-gray-50 to-gray-100">
+    <!-- Text Content -->
+    <div class="flex flex-col flex-[2] text-center lg:text-left animate-fadeInUp order-1 lg:order-none">
+      <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4 text-gray-900 tracking-tight">
+        WILLIAM RINALDI
+      </h1>
+      <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-6">
+        Senior Frontend Developer
+      </h2>
+      <p class="text-gray-700 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
+        An experienced front-end developer, proficient in <span class="font-medium text-gray-900">HTML, CSS, JavaScript, Tailwind, React</span>, and <span class="font-medium text-gray-900">Vue</span>.
+        Strong collaborator focused on creating responsive, user-friendly, and performant web applications.
+      </p>
     </div>
-    <div class="flex-[3]">
-      <NuxtImg src="/gdp_hero.svg"
-          class="rounded-2xl w-full"
-          alt="logo"
-          loading="eager"
-          height="500" />
+
+    <!-- Hero Image -->
+    <div class="flex-[3] animate-fadeIn order-2 lg:order-none">
+      <NuxtImg
+        src="/gdp_hero.svg"
+        class="rounded-2xl w-full shadow-lg border border-gray-200"
+        alt="hero graphic"
+        loading="eager"
+        height="500"
+      />
     </div>
   </section>
 </template>
+
+
+<style scoped>
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+</style>
