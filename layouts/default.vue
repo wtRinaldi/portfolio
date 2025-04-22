@@ -1,6 +1,6 @@
 <template>
   <LayoutNavigation />
-  <div class="container mx-auto view-height mb-28 pt-14">
+  <div class="container mx-auto view-height mb-12 pt-20 md:pt-28">
     <slot />
   </div>
 </template>

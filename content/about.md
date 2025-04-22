@@ -4,11 +4,11 @@ description: 'William Rinaldi about me page'
 ---
       
 ::Paragraph
-Hey there! I'm William, a passionate front-end developer with a love for Vue.js (I'm also capable in React & Angular).
+Hey there! I'm William, a passionate front-end developer with a love for Vue.js (I'm also a fan of in React & Angular).
 ::
 
 ::Paragraph
-With my degree in Information Science and a deep understanding of data, I leverage my expertise to design and develop user interfaces that seamlessly integrate complex information, resulting in powerful and intuitive user experiences. 
+With my degree in Information Science and a deep understanding of data, I leverage my expertise to architect & develop user interfaces that seamlessly integrate complex information, resulting in powerful and intuitive user experiences. 
 ::
 
 ::ContentH2

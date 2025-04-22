@@ -1,9 +1,9 @@
 <template>
-  <NuxtLayout name="contained-padded">
-    <Hero class="mb-20"/>
+  <NuxtLayout name="default">
+    <Hero class="mb-16"/>
     <Suspense>
       <template #default>
-        <LazyTechnicalProficiencies class="mb-20" />
+        <LazyTechnicalProficiencies class="mb-16" />
       </template>
       <template #fallback>
         <div class="text-center text-sm text-gray-500">Loading skills...</div>
