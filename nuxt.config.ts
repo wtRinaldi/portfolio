@@ -55,14 +55,7 @@ export default defineNuxtConfig({
     imageKey: process.env.UNSPLASH_API_KEY,
   },
 
-  modules: ['@nuxt/image', 'nuxt-icon', '@vite-pwa/nuxt', '@nuxt/content', '@nuxtjs/sitemap', '@nuxtjs/google-fonts'],
-
-  googleFonts: {
-    families: {
-      Roboto: [200, 300, 400, 500, 600, 700],
-    },
-    display: 'swap'
-  },
+  modules: ['@nuxt/image', 'nuxt-icon', '@vite-pwa/nuxt', '@nuxt/content', '@nuxtjs/sitemap'],
 
   content: {
     documentDriven: true,

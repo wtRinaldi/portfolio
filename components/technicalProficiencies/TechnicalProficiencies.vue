@@ -1,8 +1,7 @@
 <template>
     <section>
       <div class="flex flex-col">
-        <h2 class="text-2xl font-medium text-center mb-6">Technical Proficiencies</h2>
-  
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Technical Proficiencies</h2>
         <TransitionGroup
           name="fade"
           tag="div"
