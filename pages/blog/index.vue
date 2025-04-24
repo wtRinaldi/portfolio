@@ -7,7 +7,7 @@
       </div>
 
       <ContentList :query="query" v-slot="{ list }">
-        <BlogCards :cards="list" />
+        <BlogCards v-if="list.length" :cards="list" />
       </ContentList>
     </div>
   </NuxtLayout>
@@ -20,10 +20,5 @@ definePageMeta({
 })
 let sortDateBy = ref(-1)
 const query = ref({ path: '/blog', sort: [{ date: sortDateBy }]})
-
-// const query = ref({
-//   where: [{ _path: { $startsWith: '/blog/' } }],
-//   sort: [{ date: sortDateBy }]
-// })
 
 </script>

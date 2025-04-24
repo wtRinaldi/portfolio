@@ -70,8 +70,15 @@ export default defineNuxtConfig({
 
   pwa: {
     workbox: {
-      navigateFallback: '/',
-      runtimeCaching: [],
+      navigateFallback: '/index.html',
+      globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+      runtimeCaching: [
+        {
+          urlPattern: /^https:\/\/williamrinaldi\.com\/.*$/,
+          handler: 'NetworkFirst',
+          method: 'GET',
+        },
+      ],
     },
     manifest: {
       name: 'William Rinaldi portfolio',
