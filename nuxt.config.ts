@@ -69,17 +69,28 @@ export default defineNuxtConfig({
   },
 
   pwa: {
-    workbox: {
-      navigateFallback: '/index.html',
-      globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
-      runtimeCaching: [
-        {
-          urlPattern: /^https:\/\/williamrinaldi\.com\/.*$/,
-          handler: 'NetworkFirst',
-          method: 'GET',
+    navigateFallback: '/', 
+    globPatterns: ['**/*.{js,css,html,ico,png,svg}', '/'],
+    runtimeCaching: [
+      {
+        urlPattern: /^https:\/\/williamrinaldi\.com\/.*$/,
+        handler: 'NetworkFirst',
+        method: 'GET',
+        options: {
+          cacheName: 'network-cache',
+          cacheableResponse: {
+            statuses: [0, 200], // Cache successful responses
+          },
         },
-      ],
-    },
+      },
+      {
+        urlPattern: /\/$/,
+        handler: 'StaleWhileRevalidate',
+        options: {
+          cacheName: 'html-cache',
+        },
+      },
+    ],
     manifest: {
       name: 'William Rinaldi portfolio',
       short_name: 'WRinaldi',
