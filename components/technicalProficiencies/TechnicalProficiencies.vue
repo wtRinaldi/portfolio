@@ -10,8 +10,8 @@
           <CommonCard
             v-for="(proficiency, index) in proficiencies"
             :key="proficiency.name"
-            v-show="expanded || index < 8"
-            :aria-hidden="!expanded && index >= 8"
+            v-show="expanded || index < 4"
+            :aria-hidden="!expanded && index >= 4"
             class="relative max-w-[300px] h-[300px] p-3 transition-all duration-300 ease-in-out"
           >
             <div class="flex flex-col">
@@ -37,7 +37,7 @@
   
         <button
           @click="toggleExpanded"
-          class="mt-6 self-center text-blue-600 underline hover:text-blue-800 transition duration-150"
+          class="mt-6 self-center text-blue-600 underline hover:text-blue-800 transition duration-150 text-xl"
         >
           {{ expanded ? 'See Less' : 'See More' }}
         </button>
