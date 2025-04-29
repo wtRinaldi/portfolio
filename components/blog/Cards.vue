@@ -7,7 +7,7 @@
       :style="{ transitionDelay: `${index * 100}ms` }"
     >
       <NuxtLink :to="article._path" class="h-full">
-        <div class="relative flex flex-col bg-white dark:bg-gray-900 h-full">
+        <div class="relative flex flex-col bg-white h-full">
           <!-- Image Section -->
           <div class="image-container relative overflow-hidden">
             <NuxtImg
