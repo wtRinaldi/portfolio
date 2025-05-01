@@ -8,11 +8,11 @@
           <div
             v-for="endorsement in endorsements"
             :key="endorsement.name"
-            class="break-inside-avoid bg-white shadow-sm rounded-xl p-6 border border-gray-200"
+            class="break-inside-avoid bg-white shadow-sm rounded-xl p-6 border border-gray-200 bg-gray-800 "
           >
-            <p class="text-gray-700 italic mb-4" v-html="endorsement.statement" />
-            <div class="text-sm text-gray-600 font-medium text-right">{{ endorsement.name }}</div>
-            <div class="text-sm text-gray-600 font-medium text-right">{{ endorsement.company }}</div>
+            <p class="text-gray-700 text-gray-600 dark:text-gray-300 dark:font-bolder italic mb-4" v-html="endorsement.statement" />
+            <div class="text-sm text-gray-600 font-medium text-right dark:text-gray-300 ">{{ endorsement.name }}</div>
+            <div class="text-sm text-gray-600 font-medium text-right dark:text-gray-300 ">{{ endorsement.company }}</div>
           </div>
         </div>
       </div>

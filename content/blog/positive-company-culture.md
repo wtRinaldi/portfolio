@@ -65,7 +65,7 @@ The alternative approach causes the employee to feel alienated and look to move 
 
 ::Paragraph
 It's not that this company did not take mistakes seriously, in fact, the opposite was true.
-If an error were to reach production, the company held a 'Build Court, where those involved would explain why the failure occurred and how similar issues would be prevented in the future. 
+If an error were to reach production, the company held a 'Build Court', where those involved would explain why the failure occurred and how similar issues would be prevented in the future. 
 The goal wasn't to call out individuals for mistakes, but rather to recognize that there was an issue and to move forward in a way that prevented similar issues from reoccurring.
 ::
 
