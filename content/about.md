@@ -1,14 +1,13 @@
 ---
-description: 'William Rinaldi about me page'
-
+description: 'William Rinaldi About Me Page'
 ---
-      
+
 ::Paragraph
-Hey there! I'm William, a passionate front-end developer with a love for Vue.js (I'm also a fan of in React & Angular).
+Hi, I'm William—a passionate Front-End Developer with a focus on Vue.js, but also experienced with React and Angular.
 ::
 
 ::Paragraph
-With my degree in Information Science and a deep understanding of data, I leverage my expertise to architect & develop user interfaces that seamlessly integrate complex information, resulting in powerful and intuitive user experiences. 
+With a Bachelor’s degree in Information Science and a strong understanding of data, I build user interfaces that make complex information feel simple. My goal is always to create powerful, intuitive experiences that bridge design and functionality.
 ::
 
 ::ContentH2
@@ -16,14 +15,11 @@ What Drives Me
 ::
 
 ::Paragraph
-My venture into web development was preceded by a decade of immersion in the high-end audio-video and residential automation industry.
-This field served as my initial introduction to programming and demanded comparable technical problem-solving abilities.
-Transitioning into Front End development felt like a natural progression from my prior career, where crafting captivating experiences stood as the central objective.
+Before entering the tech industry, I spent over a decade working in high-end audio/video and residential automation. That environment introduced me to programming and honed my technical problem-solving skills—laying the groundwork for a smooth transition into web development.
 ::
 
 ::Paragraph
-After earning a Bachelor of Science in Information Science from Penn State and successfully graduating from the Udacity Front End Developer Nanodegree program, I embarked on my journey into front-end development.
-As I delved deeper into the world of front-end development, Vue.js and Nuxt.js quickly became my go-to tools.
+After earning my degree from Penn State and graduating from the Udacity Front-End Developer Nanodegree program, I immersed myself in the world of modern front-end frameworks. Vue.js and Nuxt.js quickly became my tools of choice.
 ::
 
 ::ContentH2
@@ -31,8 +27,7 @@ Why Vue and Nuxt
 ::
 
 ::Paragraph
-Vue.js's elegant syntax and reactive data binding make it a joy to work with, while Nuxt.js's framework provides structure and Server Side Rendering to my projects.
-Together, they enable me to craft responsive and performant web applications that not only meet but exceed client expectations.
+Vue’s clean syntax and reactive data binding make it a joy to use, while Nuxt adds structure, scalability, and server-side rendering. Together, they allow me to build responsive, performant applications that exceed client and user expectations.
 ::
 
 ::ContentH2
@@ -40,12 +35,11 @@ My Approach
 ::
 
 ::Paragraph
-In every project I undertake, my goal is to deliver not just a product, but an experience.
-I pay meticulous attention to detail, ensuring that every element of the user interface is intuitive, visually appealing, and optimized for performance across various devices and screen sizes.
+I aim to deliver more than just a product—I create polished, thoughtful experiences. I pay close attention to detail, design with responsiveness in mind, and ensure that every interface is both functional and visually engaging across all devices.
 ::
 
 ::Paragraph
-By adhering to the principles outlined in the book "Clean Code," I strive to cultivate readable and maintainable code, thereby safeguarding the future success of the organization and preventing the accumulation of technical debt.
+Inspired by the principles in *Clean Code*, I focus on writing maintainable, scalable code that supports long-term success and minimizes technical debt.
 ::
 
 ::ContentH2
@@ -53,8 +47,7 @@ Continuous Learning
 ::
 
 ::Paragraph
-As a front-end developer, I believe in the importance of continuous learning and staying updated with the latest trends and technologies in the ever-evolving landscape of web development.
-Whether it's mastering new features in Vue.js, exploring innovative design patterns, or honing my skills in responsive web design, I am committed to expanding my knowledge and pushing the boundaries of what's possible.
+Technology moves fast—and I’m always learning. Whether it’s new features in Vue, emerging design systems, or improving accessibility, I’m constantly pushing myself to stay current and sharpen my craft.
 ::
 
 ::ContentH2
@@ -62,9 +55,7 @@ Mentoring
 ::
 
 ::Paragraph
-As a former Udacity mentor, I provided positive guidance and insightful feedback while reviewing over 2,100 projects, and was recognized by Udacity as a top performer!
-I’m passionate about helping others understand the core concepts of front-end development and the principles of clean code.
-I take great pride in being a dependable team member — someone both junior and senior developers can rely on.
+As a former Udacity mentor, I reviewed over 2,100 student projects and was recognized as a top performer. I love helping others grow their skills and understand core front-end concepts. I take pride in being someone teammates—junior or senior—can count on.
 ::
 
 ::ContentH2
@@ -72,9 +63,7 @@ Let's Connect
 ::
 
 ::Paragraph
-If you're looking for a front-end developer who is passionate about creating highly functional web experiences using Vue.js / Nuxt.js, React, or Angular, 
-I'm currently looking for a new role as a Front End or Senior Front End Developer due to budgetary contraints.
-I would love to contribute to your company's success!
+If you’re looking for a Front-End Developer who’s passionate about clean, modern UI—especially with Vue, Nuxt, React, or Angular—I’m currently open to new opportunities due to budget constraints at my current contract role. I’d love to contribute to your next project or team.
 ::
 
 ::ContentH2
@@ -82,6 +71,5 @@ Connect
 ::
 
 ::Paragraph
-Feel free to email me at williamtrinaldi@gmail.com or message me on <a href="https://www.linkedin.com/in/wtrinaldi/" class="font-bold text-[#0a66c2]">LinkedIn</a> to discuss your project ideas or just to geek out about Vue.js and Nuxt.js. 
-I'm always excited to connect with others who share my passion for quality front-end development!
+Reach out to me at williamtrinaldi@gmail.com or message me on <a href="https://www.linkedin.com/in/wtrinaldi/" class="font-bold text-[#0a66c2]">LinkedIn</a>. Whether you want to discuss a project or just geek out about Vue, I’m always excited to connect with fellow developers.
 ::

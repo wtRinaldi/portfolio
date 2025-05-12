@@ -6,11 +6,11 @@
         WILLIAM RINALDI
       </h1>
       <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-6">
-        Senior Frontend Developer
+        Senior Frontend Developer with experise in Financial, HR, and Medical Software
       </h2>
       <p class="text-gray-700 md:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
         An experienced front-end developer, proficient in <span class="font-medium text-gray-900">HTML, CSS, JavaScript, Tailwind, React</span>, and <span class="font-medium text-gray-900">Vue</span>.
-        Strong collaborator focused on creating responsive, user-friendly, and performant web applications.
+        Focused on creating scalable, responsive, and performant web applications.  Currently open to full-time opportunity.
       </p>
     </div>
 

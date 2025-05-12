@@ -1,78 +1,75 @@
 ---
-description: 'William Rinaldi experience page'
-
+description: 'William Rinaldi Experience Page'
 ---
 
 ::ContentH2
-Zimmer Biomet via Pinnicle Partners contract - Senior Front End Developer - 2024-present
+Zimmer Biomet (via Pinnacle Partners) – Senior Front-End Developer – 2024–Present
 ::
 
 ::Paragraph
-As a Senior Front-End Developer at Zimmer Biomet, I contribute to the development of ZBEdge® Analytics, a cutting-edge data platform that delivers intra-operative, mobility, and outcome insights directly to surgeons. I work on developing new features and sophisticated data tables, utilizing Vue 3, Pinia, TypeScript, and Plotly. My efforts focus on integrating and presenting data from Persona IQ®, ensuring an intuitive, data-driven experience for medical professionals.
+As a Senior Front-End Developer at Zimmer Biomet, I contribute to the ZBEdge® Analytics platform—a cutting-edge tool that delivers intra-operative, mobility, and outcome insights to surgeons. My work focuses on building scalable, intuitive data visualizations and complex data tables using Vue 3, Pinia, TypeScript, and Plotly. I play a key role in integrating insights from the Persona IQ® smart implant, translating raw data into actionable UI components for surgical teams.
 ::
 
 ::ContentH2
-Semsee - Front End Developer II - 2022-2024
+Semsee – Front-End Developer II – 2022–2024
 ::
 
 ::Paragraph
-My key functions included, conducting ongoing analyses of front-end (FE) environment and user interface (UI) issues and proactively identifying and addressing areas requiring improvement.
-In addition to this, I collaborate with Product and Back-End developers to conceptualize and develop new features, fostering cross-functional teamwork/innovation.
+At Semsee, I led initiatives to optimize front-end performance and resolve UI issues, contributing to a more responsive and accessible user experience. I worked closely with Product and Backend teams to architect and develop new features for commercial insurance quoting workflows. My focus on cross-functional collaboration and proactive problem-solving helped reduce tech debt and improve code quality across the stack.
 ::
 
 ::ContentH2
-Interactive Brokers - Front End Developer - 2022
+Interactive Brokers – Front-End Developer – 2022
 ::
 
 ::Paragraph
-Resolved issues within the existing Vue component library, enhancing the usability and performance of the components.
+Contributed to enhancements of the company’s internal Vue component library, improving usability and performance. I resolved bugs, streamlined documentation, and collaborated with other teams to maintain consistency across the firm’s large-scale trading platform UI.
 ::
 
 ::ContentH2
-Sittercity - Senior Front End Software Engineer - 2022
+Sittercity – Senior Front-End Software Engineer – 2022
 ::
 
 ::Paragraph
-Functioned as the technical lead for the SEO & page speed squad, spearheading efforts to optimize website performance and search engine optimization (SEO).
+Served as the technical lead of the SEO and Page Speed squad. Spearheaded frontend optimization efforts that improved Core Web Vitals and search engine visibility. Implemented lazy-loading, script deferrals, and other modern performance strategies to ensure faster load times and better user engagement.
 ::
 
 ::ContentH2
-Dakota Software - Front End Developer III - 2021-2022
+Dakota Software – Front-End Developer III – 2021–2022
 ::
 
 ::Paragraph
-Provided valuable guidance and advice during the development of a greenfield application built using Vue.js, contributing to the successful creation of a new and innovative software solution.
+Played a pivotal role in the development of a greenfield enterprise compliance platform using Vue.js. Provided architectural guidance, enforced best practices, and worked closely with design to align UX/UI with customer needs. Contributed to code reviews and team onboarding as a senior technical contributor.
 ::
 
 ::ContentH2
-CastleBranch - Front End Developer II - 2018-2021
+CastleBranch – Front-End Developer II – 2018–2021
 ::
 
 ::Paragraph
-During my time here, I performed a diverse range of tasks, such as mentoring and providing expert guidance to a team of developers, facilitating the creation of new applications and features using Vue.js. Additionally, I assessed the feasibility of UX designs, offering insights and recommendations to enhance user experience and streamline development.
+Mentored junior developers and provided leadership on several mission-critical web applications. Collaborated with UX teams to evaluate design feasibility, then translated mockups into responsive and accessible components using Vue.js. Helped standardize component patterns and improve front-end test coverage.
 ::
 
 ::ContentH2
-Vanguard via LiquidHub contract - Front End Developer - 2016-2017
+Vanguard (via LiquidHub) – Front-End Developer – 2016–2017
 ::
 
 ::Paragraph
-Contributed significantly to the development of intricate financial interfaces using Java and Angular JS by leveraging proficiency in both languages. Translated technical specifications and design concepts into functional code, ensuring alignment with project requirements and set goals.
+Developed sophisticated financial dashboards and transaction interfaces using Java and AngularJS. Bridged design and engineering by translating complex specifications into performant, real-time user experiences. Worked within an Agile environment, ensuring continuous delivery and stakeholder alignment.
 ::
 
 ::ContentH2
-Self - Mentor for Udacity - 2016-2022
+Udacity (Freelance) – Mentor & Reviewer – 2016–2022
 ::
 
 ::Paragraph
-Contracted as a Udacity mentor & reviewer having reviewed over 2100 projects and recognized as a high performer.
+Reviewed over 2,100 student projects across front-end nanodegree programs. Recognized as a top-performing mentor for consistently delivering high-quality feedback, technical support, and career guidance to aspiring developers around the world.
 ::
 
 ::ContentH2
-Residential Automation & High-End Audio Video Specialist - 2001-2012
+Residential Automation & High-End Audio/Video Specialist – 2001–2012
 ::
 
 ::Paragraph
-Previous technical career in programming and installing Residential Automation & Audio/Video devices for high-end clientele in the Philadelphia area.
+Led installations and system programming for high-end residential clients in the Philadelphia area. Specialized in home automation systems, AV integrations, and custom control interfaces. Developed a strong foundation in technical problem-solving, customer service, and systems architecture.
 ::
-
