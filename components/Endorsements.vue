@@ -1,7 +1,7 @@
 <template>
     <section class="bg-gray-100 py-12 px-4">
       <div class="max-w-5xl mx-auto">
-        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Endorsements</h2>
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">What Others Say About Me</h2>
   
         <!-- Masonry-style column layout -->
         <div class="columns-1 sm:columns-2 gap-6 space-y-6">
@@ -34,7 +34,7 @@ const endorsements = [
         name: 'Nicole B. - Vice President of R&D',
         statement: `William Rinaldi was first introduced to me as a Front-End Developer (FED) on a UI/UX team that began reporting to me at a compliance company developing a new SaaS product.
           It became clear quickly that I would not need to prioritize his skill development—he was already capable beyond his title.
-          His abilities allowed us to develop a trusted rapport, and I knew his recommendations would be beneficial for ourprogress.
+          His abilities allowed us to develop a trusted rapport, and I knew his recommendations would be beneficial for our progress.
           Though William and I have not worked together for years, I am confident that his passion for his craft has not faltered, and highly recommend him for any role where FED is a key focus. <br><br>
           JavaScript. Vue. React. CSS. HTML. Yes, he possesses these skills among others. What is of equal importance are his sense of team and calm disposition. The best SDLCs and most understanding business partners do not shield developers from pressures that can create a hostile work environment.
           I have seen firsthand William’s ability to diffuse situations, reframe a problem, and create cohesiveness within a group to work together toward a favorable outcome. <br><br>
