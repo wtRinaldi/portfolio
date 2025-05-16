@@ -1,7 +1,7 @@
 <template>
     <section class="bg-gray-100 py-12 px-4">
       <div class="max-w-5xl mx-auto">
-        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">What Others Say About Me</h2>
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Testimonials</h2>
   
         <!-- Masonry-style column layout -->
         <div class="columns-1 sm:columns-2 gap-6 space-y-6">
