@@ -10,7 +10,7 @@
       </h2>
       <p class="text-gray-700 md:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
         Experienced front-end developer in the fields of Financial, HR, Insurance, and Medical Software. Proficient in <span class="font-medium text-gray-900">HTML, CSS, JavaScript, Tailwind, React</span>, and <span class="font-medium text-gray-900">Vue</span>.
-        Focused on creating scalable, responsive, and performant web applications.  I'm currently seeking full-time frontend development roles where I can contribute to building scalable, user-centric applications.
+        Focused on creating scalable, responsive, and performant web applications.  I'm currently seeking full-time frontend development role.
       </p>
     </div>
 
