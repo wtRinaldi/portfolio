@@ -71,7 +71,7 @@ export default defineNuxtConfig({
 pwa: {
   registerType: 'autoUpdate',
   manifest: {
-    id: 'com.williamrinaldi.portfolio',
+    id: 'com.williamrinaldi.portfolio',  // Pixel/Android app recognition
     name: 'William Rinaldi Portfolio',
     short_name: 'WRinaldi',
     description: 'Front End Developer William Rinaldi portfolio website',
@@ -96,12 +96,18 @@ pwa: {
       }
     ]
   },
+
   workbox: {
     navigateFallback: '/', 
     globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+    
+    // Precache static pages explicitly, no need to precache root '/'
     additionalManifestEntries: [
-      { url: '/', revision: '1' } // precaches root
+      { url: '/about', revision: '1' },
+      { url: '/experience', revision: '1' },
+      { url: '/blog', revision: '1' }
     ],
+
     runtimeCaching: [
       {
         urlPattern: /^https:\/\/williamrinaldi\.com\/.*$/,
