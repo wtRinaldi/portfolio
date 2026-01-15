@@ -107,6 +107,7 @@ pwa: {
       { url: '/experience', revision: '1' },
       { url: '/blog', revision: '1' }
     ],
+    navigateFallbackDenylist: [/^\/$/], // prevents the first request from triggering the error
 
     runtimeCaching: [
       {
