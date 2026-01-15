@@ -69,6 +69,7 @@ export default defineNuxtConfig({
   },
 
 pwa: {
+  devOptions: { enabled: false },
   registerType: 'autoUpdate',
   manifest: {
     id: 'com.williamrinaldi.portfolio',  // Pixel/Android app recognition
@@ -100,14 +101,13 @@ pwa: {
   workbox: {
     navigateFallback: '/', 
     globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
-    
-    // Precache static pages explicitly, no need to precache root '/'
+
+    // Precache static pages explicitly, root '/' handled automatically
     additionalManifestEntries: [
       { url: '/about', revision: '1' },
       { url: '/experience', revision: '1' },
       { url: '/blog', revision: '1' }
     ],
-    navigateFallbackDenylist: [/^\/$/], // prevents the first request from triggering the error
 
     runtimeCaching: [
       {
@@ -130,6 +130,7 @@ pwa: {
       },
     ]
   }
+
 },
 
 
