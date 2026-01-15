@@ -22,6 +22,7 @@
         alt="hero graphic"
         loading="eager"
         height="500"
+        priority
       />
     </div>
   </section>

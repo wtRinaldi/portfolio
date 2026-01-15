@@ -10,4 +10,11 @@
 }
 </style>
 <script setup>
+  useHead({
+    link: [
+      { rel: 'preload', as: 'font', href: '/fonts/roboto-v47-latin-400.woff2', type: 'font/woff2', crossorigin: 'anonymous' },
+      { rel: 'preload', as: 'font', href: '/fonts/roboto-v47-latin-700.woff2', type: 'font/woff2', crossorigin: 'anonymous' },
+      { rel: 'preload', as: 'image', href: '/gdp_hero.svg' }
+    ]
+  })
 </script>
