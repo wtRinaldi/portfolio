@@ -35,14 +35,6 @@ Served as the technical lead of the SEO and Page Speed squad. Spearheaded fronte
 ::
 
 ::ContentH2
-Dakota Software – Front-End Developer III – 2021–2022
-::
-
-::Paragraph
-Played a pivotal role in the development of a greenfield enterprise compliance platform using Vue.js. Provided architectural guidance, enforced best practices, and worked closely with design to align UX/UI with customer needs. Contributed to code reviews and team onboarding as a senior technical contributor.
-::
-
-::ContentH2
 CastleBranch – Front-End Developer II – 2018–2021
 ::
 
