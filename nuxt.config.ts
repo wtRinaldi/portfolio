@@ -68,9 +68,40 @@ export default defineNuxtConfig({
     url: 'https://williamrinaldi.com',
   },
 
-  pwa: {
+pwa: {
+  registerType: 'autoUpdate',
+  manifest: {
+    id: 'com.williamrinaldi.portfolio',
+    name: 'William Rinaldi Portfolio',
+    short_name: 'WRinaldi',
+    description: 'Front End Developer William Rinaldi portfolio website',
+    lang: 'en',
+    start_url: '/',
+    scope: '/',
+    display: 'standalone',
+    theme_color: '#000000',
+    background_color: '#FFFFFF',
+    icons: [
+      {
+        src: 'maskable_icon_x192.png',
+        sizes: '192x192',
+        type: 'image/png',
+        purpose: 'any maskable'
+      },
+      {
+        src: 'maskable_icon_x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'any maskable'
+      }
+    ]
+  },
+  workbox: {
     navigateFallback: '/', 
-    globPatterns: ['**/*.{js,css,html,ico,png,svg}', '/'],
+    globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+    additionalManifestEntries: [
+      { url: '/', revision: '1' } // precaches root
+    ],
     runtimeCaching: [
       {
         urlPattern: /^https:\/\/williamrinaldi\.com\/.*$/,
@@ -79,7 +110,7 @@ export default defineNuxtConfig({
         options: {
           cacheName: 'network-cache',
           cacheableResponse: {
-            statuses: [0, 200], // Cache successful responses
+            statuses: [0, 200],
           },
         },
       },
@@ -90,61 +121,10 @@ export default defineNuxtConfig({
           cacheName: 'html-cache',
         },
       },
-    ],
-    manifest: {
-      name: 'William Rinaldi portfolio',
-      short_name: 'WRinaldi',
-      description: 'Front End Developer William Rinaldi portfolio website',
-      lang: 'en',
-      theme_color: '#000000',
-      background_color: '#FFFFFF',
-      display: 'standalone',
-      icons: [
-        {
-          src: 'maskable_icon_x48.png',
-          sizes: '48x48',
-          type: 'image/png',
-          purpose: 'any maskable'
-        },
-        {
-          src: 'maskable_icon_x72.png',
-          sizes: '72x72',
-          type: 'image/png',
-          purpose: 'any maskable'
-        },
-        {
-          src: 'maskable_icon_x96.png',
-          sizes: '96x96',
-          type: 'image/png',
-          purpose: 'any maskable'
-        },
-        {
-          src: 'maskable_icon_x128.png',
-          sizes: '128x128',
-          type: 'image/png',
-          purpose: 'any maskable'
-        },
-        {
-          src: 'maskable_icon_x192.png',
-          sizes: '192x192',
-          type: 'image/png',
-          purpose: 'any maskable'
-        },
-        {
-          src: 'maskable_icon_x384.png',
-          sizes: '384x384',
-          type: 'image/png',
-          purpose: 'any maskable'
-        },
-        {
-          src: 'maskable_icon_x512.png',
-          sizes: '512x512',
-          type: 'image/png',
-          purpose: 'any maskable'
-        }
-      ]
-    }
-  },
+    ]
+  }
+},
+
 
   compatibilityDate: '2025-04-12'
 })
