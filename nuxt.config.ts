@@ -55,7 +55,14 @@ export default defineNuxtConfig({
     imageKey: process.env.UNSPLASH_API_KEY,
   },
 
-  modules: ['@nuxt/image', 'nuxt-icon', '@vite-pwa/nuxt', '@nuxt/content', '@nuxtjs/sitemap'],
+  modules: [
+    '@nuxt/image',
+    'nuxt-icon',
+    '@vite-pwa/nuxt',
+    '@nuxt/content',
+    '@nuxtjs/sitemap',
+    'nuxt-vitalizer'
+  ],
 
   content: {
     documentDriven: true,
