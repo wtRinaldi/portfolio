@@ -2,7 +2,7 @@
 date: '4.18.2025'
 description: 'Adding two way binding to React via hooks'
 type: 'frameworks'
-img: '/double-arrow.svg'
+img: '/two-way-arrow.jpeg'
 ---
 
 ::ContentH1

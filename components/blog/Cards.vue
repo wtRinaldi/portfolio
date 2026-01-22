@@ -83,7 +83,7 @@ defineProps({
 }
 
 .card-img {
-  @apply w-full h-full object-contain;
+  @apply w-full h-full object-cover;
 }
 
 .category-badge {
