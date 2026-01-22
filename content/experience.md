@@ -7,7 +7,7 @@ Zimmer Biomet (via Pinnacle Partners) – Senior Front-End Developer – 2024–
 ::
 
 ::Paragraph
-As a Senior Front-End Developer at Zimmer Biomet, I contribute to the ZBEdge® Analytics platform—a cutting-edge tool that delivers intra-operative, mobility, and outcome insights to surgeons. My work focuses on building scalable, intuitive data visualizations and complex data tables using Vue 3, Pinia, TypeScript, and Plotly. I play a key role in integrating insights from the Persona IQ® smart implant, translating raw data into actionable UI components for surgical teams.
+As a Senior Front-End Developer at Zimmer Biomet, I contribute to the <a href="https://www.zimmerbiomet.com/en/products-and-solutions/zb-edge/zb-edge-analytics.html" class="font-bold text-[#0a66c2]">ZBEdge® Analytics</a> platform—a cutting-edge tool that delivers intra-operative, mobility, and outcome insights to surgeons. My work focuses on building scalable, intuitive data visualizations and complex data tables using Vue 3, Pinia, TypeScript, and Plotly. I play a key role in integrating insights from the Persona IQ® smart implant, translating raw data into actionable UI components for surgical teams.
 ::
 
 ::ContentH2
