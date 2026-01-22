@@ -1,8 +1,8 @@
 ---
 date: '1.09.2026'
-description: 'Creating floating, grouped, stacked bar charts with PlotlyJS using repeated labels and custom stacking logic'
+description: 'Floating, Grouped, Stacked: Overcoming Plotly’s Limitations'
 type: 'code'
-img: '/plotly.png'
+img: '/chart-img.jpg'
 ---
 
 ::ContentH1
