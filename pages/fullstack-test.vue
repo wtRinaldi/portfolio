@@ -6,24 +6,24 @@ const newMessage = ref('')
 const editMessageId = ref(null)
 const editMessageText = ref('')
 
+const API_BASE = import.meta.env.VITE_API_BASE;
+
 // Fetch all messages
 const fetchHealth = async () => {
   try {
-    const res = await fetch('http://127.0.0.1:4000/health')
-    const data = await res.json()
-    messages.value = data
+    const res = await fetch(`${API_BASE}/health`);
+    const data = await res.json();
+    messages.value = data;
   } catch (err) {
-    console.error(err)
+    console.error(err);
   }
 }
-
-onMounted(fetchHealth)
 
 // Submit a new message
 const submitMessage = async () => {
   if (!newMessage.value) return
   try {
-    await fetch('http://127.0.0.1:4000/health', {
+    await fetch(`${API_BASE}/health`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: newMessage.value })
@@ -38,7 +38,24 @@ const submitMessage = async () => {
 // Delete a message
 const deleteMessage = async (id) => {
   try {
-    await fetch(`http://127.0.0.1:4000/health/${id}`, { method: 'DELETE' })
+    await fetch(`${API_BASE}/health/${id}`, { method: 'DELETE' })
+    await fetchHealth()
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+// Save edited message
+const saveEdit = async () => {
+  if (!editMessageText.value) return
+  try {
+    await fetch(`${API_BASE}/health/${editMessageId.value}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: editMessageText.value })
+    })
+    editMessageId.value = null
+    editMessageText.value = ''
     await fetchHealth()
   } catch (err) {
     console.error(err)
@@ -51,22 +68,8 @@ const startEdit = (msg) => {
   editMessageText.value = msg.message
 }
 
-// Save edited message
-const saveEdit = async () => {
-  if (!editMessageText.value) return
-  try {
-    await fetch(`http://127.0.0.1:4000/health/${editMessageId.value}`, {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: editMessageText.value })
-    })
-    editMessageId.value = null
-    editMessageText.value = ''
-    await fetchHealth()
-  } catch (err) {
-    console.error(err)
-  }
-}
+onMounted(fetchHealth)
+
 </script>
 
 <template>
