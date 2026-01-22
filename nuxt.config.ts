@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/'] // routes to prerender
+      routes: ['/'], // routes to prerender
+      ignore: ['/fullstack-test'] // routes to not prerender
     }
   },
   app: {
@@ -16,7 +17,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en'
       },
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}]
+      link: [{ rel: 'icon', type: 'image/x-icon', sizes: '32x32', href: '/favicon_32x32.ico' }]
     }
   },
 
@@ -61,8 +62,15 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    'nuxt-vitalizer'
+    'nuxt-vitalizer',
   ],
+
+  vitalizer: {
+    disableStylesheets: 'entry'  // ← This removes the blocking entry.*.css link
+    // Optional extras if you want more aggressive LCP wins:
+    // disablePrefetchLinks: true,
+    // disablePreloadLinks: true
+  },
 
   content: {
     documentDriven: true,
